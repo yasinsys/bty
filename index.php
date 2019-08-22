@@ -255,7 +255,7 @@
         .beautypress-welcome-container{
         	height: 600px !important;
         }
-        .owl-prev, .owl-next{display: none;}
+        .owl-prev, .owl-next{display: none !important;}
     </style>
     <style type="text/css"></style>
     <noscript>
