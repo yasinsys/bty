@@ -255,6 +255,7 @@
         .beautypress-welcome-container{
         	height: 600px !important;
         }
+        .owl-prev, .owl-next{display: none;}
     </style>
     <style type="text/css"></style>
     <noscript>
@@ -596,8 +597,7 @@
                                                                         </div>
                                                                     </div>
                                                             <div class="owl-nav">
-                                                                <div class="owl-prev" style="top: calc(50% + 58.5px);"><i class="xsicon icon-left-arrow"></i></div>
-                                                                <div class="owl-next" style="top: calc(50% + 58.5px);"><i class="xsicon icon-right-arrow"></i></div>
+
                                                             </div>
                                                             <div class="owl-dots disabled"></div>
                                                         </div>
