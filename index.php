@@ -1,2448 +1,2404 @@
-<html class="no-js" lang="en" style="padding-bottom: 60px;"><!--<![endif]--><head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="theme-color" content="#ffa6a8">
-    <link rel="canonical" href="https://outtocks.myshopify.com/">
-    
-    
-    <title>
-        velastore demo
-    </title>
-    
-    <!-- /snippets/social-meta-tags.liquid -->
-<meta property="og:site_name" content="velastore demo">
-<meta property="og:url" content="https://outtocks.myshopify.com/">
-<meta property="og:title" content="velastore demo">
-<meta property="og:type" content="website">
-<meta property="og:description" content="velastore demo">
+<html lang="en-US">
+<!--<![endif]-->
 
-<meta name="twitter:site" content="@">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="velastore demo">
-<meta name="twitter:description" content="velastore demo">
-
-    <link href="https://cdn.shopify.com/s/files/1/2517/5168/t/5/assets/vela-fonts.scss.css?7045" rel="stylesheet" type="text/css" media="all">
-<link href="https://cdn.shopify.com/s/files/1/2517/5168/t/5/assets/plugin.css?7045" rel="stylesheet" type="text/css" media="all">
-<link href="vela-site.scss.css" rel="stylesheet" type="text/css" media="all">
-
-    <script type="text/javascript" async="" src="https://productreviews.shopifycdn.com/assets/v4/spr.js?shop=outtocks.myshopify.com"></script><script src="https://connect.facebook.net/en_US/sdk.js?hash=53df02dade427b3b118ce77b86f845d5&amp;ua=modern_es6" async="" crossorigin="anonymous"></script><script id="facebook-jssdk" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.12"></script><script type="text/javascript" async="" src="https://cdn.shopify.com/s/javascripts/tricorder/trekkie.storefront.min.js?v=2017.09.05.1"></script><script src="https://cdn.shopify.com/s/files/1/2517/5168/t/5/assets/jquery.2.2.3.js?7045" type="text/javascript"></script>
-<script>
-    window.money = '<span class="money">${{amount}}</span>';
-    window.money_format = '<span class="money">${{amount}} USD</span>';
-    window.currency = 'USD';
-    window.shop_money_format = "${{amount}}";
-    window.shop_money_with_currency_format = "${{amount}} USD";
-    window.loading_url = "https://cdn.shopify.com/s/files/1/2517/5168/t/5/assets/loading.gif?7045";
-    window.file_url = "https://cdn.shopify.com/s/files/1/2517/5168/files/?7045";
-    window.asset_url = "https://cdn.shopify.com/s/files/1/2517/5168/t/5/assets/?7045";
-    window.ajaxcart_type = 'modal';
-    window.cart_empty = "Your cart is currently empty.";
-    window.swatch_enable = true;
-    window.swatch_show_unvailable = true;
-    window.sidebar_multichoise = true;
-    window.float_header = false;
-    window.review = true;
-    window.currencies = false;
-    window.countdown_format = "<ul class='list-unstyle list-inline'><li><span class='number'>%D</span><span>Days</span></li><li><span class='number'>%H</span><span>Hours</span></li><li><span class='number'>%M</span><span>Mins</span></li><li><span class='number'>%S</span><span>Secs</span></li></ul>";
-</script>
-    <script async="" src="https://cdn.shopify.com/s/assets/shop_events_listener-acf771159f9849ef6e5265782c99efe8b99406214c96a4373224ecafe285d7bb.js"></script>
-
-<script integrity="sha256-XvJAR0GWTFITqI9Je626Jg9XHK1rY52ie+f6Eq4D/dM=" defer="defer" src="https://cdn.shopify.com/s/assets/storefront/express_buttons-5ef2404741964c5213a88f497badba260f571cad6b639da27be7fa12ae03fdd3.js" crossorigin="anonymous"></script>
-<script integrity="sha256-qzPTa4Ven/Yc2yyXr9BKZWCTXSrPTCnbGdWsxA7YCw0=" defer="defer" src="https://cdn.shopify.com/s/assets/storefront/features-ab33d36b855e9ff61cdb2c97afd04a6560935d2acf4c29db19d5acc40ed80b0d.js" crossorigin="anonymous"></script>
-<script integrity="sha256-HjpxOt032ssmooRgVOW/c8loNAwGy026qLmF3OAx9M0=" defer="defer" src="https://cdn.shopify.com/s/assets/storefront/bars/preview_bar_injector-1e3a713add37dacb26a2846054e5bf73c968340c06cb4dbaa8b985dce031f4cd.js" crossorigin="anonymous"></script>
-
-
-
-<script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
-<style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
-.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#1d3c78;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
-.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}</style><link rel="stylesheet" type="text/css" href="https://productreviews.shopifycdn.com/assets/v4/spr-5a2d2fd286dca8042a3a5a76bc9032c64c52a2792a734307c76740d012641514.css" media="screen"><script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script></head><body id="velastore-demo" class="template-index ajaxcartIsLoading" style="">
-    
-    <div id="pageContainer" class="isMoved">
-        <div id="shopify-section-vela-header" class="shopify-section"><header id="velaHeader" class="velaHeader">
-    <section class="headerWrap"><div class="velaHeaderMain headerMenu">
-            <div class="container-fluid">
-                <div class="headerContent rowFlex rowFlexMargin">
-                    <div class="velaHeaderMobile hidden-lg hidden-md col-xs-3 col-sm-3">
-                        <div class="menuBtnMobile hidden-lg hidden-md">
-                            <div id="btnMenuMobile" class="btnMenuMobile">
-                                <span class="iconMenu"></span>
-                                <span class="iconMenu"></span>
-                                <span class="iconMenu"></span>
-                                <span class="iconMenu"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="velaHeaderLeft col-xs-6 col-sm-6 col-md-2"><h1 class="velaLogo" itemscope="" itemtype="http://schema.org/Organization"><a href="/" itemprop="url" class="velaLogoLink">
-                                <span class="text-hide">velastore demo</span><img class="img-responsive" style="max-width: 150px;" alt="velastore demo" src="beauty_logo.png"></a></h1></div>
-                    <div class="velaMainmenu velaHeaderCenter col-xs-3 col-sm-3 col-md-8 hidden-xs hidden-sm"><section id="velaMegamenu" class="velaMegamenu">
-        <nav class="menuContainer">
-            <ul class="nav hidden-xs hidden-sm">
-                            <li class="hasMenuDropdown active">
-                                <a href="/" title="Home">
-                                    <span>Home</span>
-                                </a>
-                                <ul class="menuDropdown"><li class="">
-                                                <a href="https://outtocks.myshopify.com/?preview_theme_id=48617128015" title=""><span>Home 01</span></a>
-                                            </li><li class="">
-                                                <a href="https://outtocks.myshopify.com/?preview_theme_id=73947021391" title=""><span>Home 02</span></a>
-                                            </li><li class="">
-                                                <a href="https://outtocks.myshopify.com/?preview_theme_id=73948266575" title=""><span>Home 03</span></a>
-                                            </li></ul>
-                            </li><li class="hasMenuDropdown hasMegaMenu">
-	<a href="/collections/all" title="">
-        <span>Shop</span></a>
-    <a class="btnCaret hidden-lg hidden-md" data-toggle="collapse" href="#megaDropdown21"></a>
-    
-	<div id="megaDropdown21" class="menuDropdown megaMenu collapse">
-		<div class="menuGroup row">
-			
-			
-			
-			
-            
-                <div class="col-sm-12">
-                    <div class="velaMenuListCollection">
-                        
-                        <div class="velaMenuListContent rowFlex">
-                            
-                              
-                              
-                              
-                                <div class="coll-item" style="width: 25%;">
-                                  <div class="collImage">
-                                    <a href="/collections/spa">
-                                      <img class="img-responsive" alt="Spa" src="https://cdn.shopify.com/s/files/1/2517/5168/collections/banner3.jpg?v=1561260127">
-                                    </a>
-                                  </div>
-                                  <h5 class="collTitle"><a href="/collections/spa" title="Spa"> Spa</a></h5>
-                                </div>
-                              
-                            
-                              
-                              
-                              
-                                <div class="coll-item" style="width: 25%;">
-                                  <div class="collImage">
-                                    <a href="/collections/skin-care">
-                                      <img class="img-responsive" alt="Skin care" src="https://cdn.shopify.com/s/files/1/2517/5168/collections/banner4.jpg?v=1561260375">
-                                    </a>
-                                  </div>
-                                  <h5 class="collTitle"><a href="/collections/skin-care" title="Skin care"> Skin care</a></h5>
-                                </div>
-                              
-                            
-                              
-                              
-                              
-                                <div class="coll-item" style="width: 25%;">
-                                  <div class="collImage">
-                                    <a href="/collections/make-up">
-                                      <img class="img-responsive" alt="Make up" src="https://cdn.shopify.com/s/files/1/2517/5168/collections/banner4_41708f54-7383-4cdf-b8ec-f6a79612c729.jpg?v=1561260482">
-                                    </a>
-                                  </div>
-                                  <h5 class="collTitle"><a href="/collections/make-up" title="Make up"> Make up</a></h5>
-                                </div>
-                              
-                            
-                              
-                              
-                              
-                                <div class="coll-item" style="width: 25%;">
-                                  <div class="collImage">
-                                    <a href="/collections/beauty">
-                                      <img class="img-responsive" alt="Beauty" src="https://cdn.shopify.com/s/files/1/2517/5168/collections/banner7.jpg?v=1561260406">
-                                    </a>
-                                  </div>
-                                  <h5 class="collTitle"><a href="/collections/beauty" title="Beauty"> Beauty</a></h5>
-                                </div>
-                              
-                            
-                              
-                              
-                              
-                            
-                              
-                              
-                              
-                            
-                              
-                              
-                              
-                            
-                              
-                              
-                              
-                            
-                              
-                              
-                              
-                            
-                              
-                              
-                              
-                            
-                        </div>
-                    </div>
-                </div>
-            
-		</div>
-	</div>
-</li>
-                            
-                            <li class="">
-                                <a href="/blogs/spa" title="">
-                                    <span>Portfolio</span></a>
-                            </li>
-                            <li class="hasMenuDropdown">
-                                <a href="/pages/about-us" title="Pages">
-                                    <span>Pages</span>
-                                </a>
-                                <ul class="menuDropdown"><li class="">
-                                                <a href="/pages/about-us" title=""><span>About Us</span></a>
-                                            </li><li class="">
-                                                <a href="/pages/what-we-offter" title=""><span>What We Offter</span></a>
-                                            </li><li class="">
-                                                <a href="/pages/our-team" title=""><span>Our Team</span></a>
-                                            </li><li class="">
-                                                <a href="/pages/comming-soon" title=""><span>Comming Soon</span></a>
-                                            </li><li class="">
-                                                <a href="/pages/error-page" title=""><span>Error Page</span></a>
-                                            </li><li class="">
-                                                <a href="/pages/faqs" title=""><span>FAQs</span></a>
-                                            </li></ul>
-                            </li><li class="">
-                                <a href="/blogs/news" title="">
-                                    <span>Blogs</span></a>
-                            </li><li class="">
-                                <a href="/pages/contact" title="">
-                                    <span>Contact</span></a>
-                            </li></ul>
-        </nav>
-    </section></div>
-                    <div class="velaHeaderRight col-xs-3 col-sm-3 col-md-2"> 
-                        <a class="velaSearchIcon" href="#velaSearchTop" data-toggle="collapse" title="Search">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="20px" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1040 1024"><path d="M1031 969L720 656q93-111 93-256 0-109-53.5-201t-146-145.5T412.5 0 212 53.5 66.5 199 13 400t53.5 201T212 746.5 413 800q149 0 262-98l310 312q10 10 23 10t22.5-9.5 9.5-23-9-22.5zM413 737q-92 0-169.5-45.5T121 568.5 76 400t45-168.5 122.5-123 169-45.5 169 45.5 122.5 123T749 400q0 39-9 77t-25.5 71-39.5 62.5-52 52.5-62 39.5-71 25.5-77 9z"></path></svg>
-                        </a>                                      
-                        <div class="velaCartTop"><a href="javascript:void(0)" class="velaCartModal text-center">
-			<i class="icons">
-				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="18px" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 832 1024"><path d="M768 159H577V97q0-26-13-48t-35-35-48-13H353q-15 0-30 5t-26.5 14T276 40.5 262 67t-5 30v62H64q-27 0-45.5 18.5T0 223v736q0 26 18.5 45t45.5 19h704q27 0 45.5-19t18.5-45V223q0-27-18.5-45.5T768 159zM321 97q0-13 9.5-22.5T353 65h128q13 0 22.5 9.5T513 97v62H321V97zm447 862H64V223h193v66q0 3 1 8.5t8.5 14.5 22.5 9q16 0 24-8t8-16v-74h192v69l1.5 7.5 4.5 10 9.5 8L545 321q9 0 15.5-3.5t9.5-8 4.5-9.5 2.5-8v-69h191v736z"></path></svg>
-			</i>
-			<span id="CartCount" class="hidden-count">0</span>
-			
-		</a>
-		<div class="velaAjaxCartModal">
-    		<div id="cartContainer"><div class="headerCartEmpty">Your cart is currently empty.</div></div>
-		</div></div>
-<a class="velaIconTopLinks" href="#velaTopLinks" data-toggle="collapse" title="Search">
-                                <span class="iconMenu"></span>
-                                <span class="iconMenu"></span>
-                                <span class="iconMenu"></span>
-                            </a>                                      
-
-                            
-   
-   
-   
-   
-   
-
-      <div id="velaTopLinks" class="velaTopLinks collapse">
-         <ul class="list-unstyled">
-            
-               <li><a href="/account/register" id="customer_register_link">Lore</a></li>
-               <li><a href="/account/login" id="customer_login_link">Ipsum</a></li>
-            
-         </ul>
-      </div>
-
-
-</div>
-                </div>
-            </div>
-        </div>  
-    </section>
-</header>
-<a class="searchClose collapsed" href="#velaSearchTop" data-toggle="collapse">&nbsp;</a>
-<div id="velaSearchTop" class="collapse">
-	<div class="container text-center">
-	    <a class="btnClose" href="#velaSearchTop" data-toggle="collapse"><i class="ion ion-android-close"></i></a>
-		<h3 class="title">Search</h3>
-	    <form id="velaSearchbox" class="formSearch" action="/search" method="get">
-	        <input type="hidden" name="type" value="product">
-	        <input class="velaSearch form-control" type="search" name="q" value="" placeholder="Enter keywords to search..." autocomplete="off">
-	        <button id="velaSearchButton" class="btnVelaSearch" type="submit">
-	           	<i class="ion ion-ios-search"></i>
-	            <span class="btnSearchText">Search</span>
-	        </button>
-	    <ul class="velaAjaxSearch" style="display: none;"></ul></form>
-	</div>
-</div> <div id="velaMenuMobile" class="menuMobileContainer hidden-md hidden-lg">
-    <div class="menuMobileWrapper">
-        <div class="memoHeader">
-            <span>Menu Mobile</span>
-            <div class="btnMenuClose">&nbsp;</div>
-        </div>
-        <ul class="nav memoNav"><li class="hasMemoDropdown active">
-                        <a href="/" title="">Home</a>
-                        <span class="memoBtnDropdown collapsed" data-toggle="collapse" data-target="#memoDropdown11"><i class="fa fa-angle-down"></i></span>
-                        <ul id="memoDropdown11" class="memoDropdown collapse"><li class="">
-                                        <a href="https://outtocks.myshopify.com/?preview_theme_id=48617128015" title="">Home 01</a>
-                                    </li><li class="">
-                                        <a href="https://outtocks.myshopify.com/?preview_theme_id=73947021391" title="">Home 02</a>
-                                    </li><li class="">
-                                        <a href="https://outtocks.myshopify.com/?preview_theme_id=73948266575" title="">Home 03</a>
-                                    </li></ul>
-                    </li><li class="">
-                        <a href="/collections/all" title="">Shop</a>
-                    </li><li class="">
-                        <a href="/blogs/spa" title="">Portfolio</a>
-                    </li><li class="hasMemoDropdown">
-                        <a href="/pages/about-us" title="">Pages</a>
-                        <span class="memoBtnDropdown collapsed" data-toggle="collapse" data-target="#memoDropdown14"><i class="fa fa-angle-down"></i></span>
-                        <ul id="memoDropdown14" class="memoDropdown collapse"><li class="">
-                                        <a href="/pages/about-us" title="">About Us</a>
-                                    </li><li class="">
-                                        <a href="/pages/what-we-offter" title="">What We Offter</a>
-                                    </li><li class="">
-                                        <a href="/pages/our-team" title="">Our Team</a>
-                                    </li><li class="">
-                                        <a href="/pages/comming-soon" title="">Comming Soon</a>
-                                    </li><li class="">
-                                        <a href="/pages/error-page" title="">Error Page</a>
-                                    </li><li class="">
-                                        <a href="/pages/faqs" title="">FAQs</a>
-                                    </li></ul>
-                    </li><li class="">
-                        <a href="/blogs/news" title="">Blogs</a>
-                    </li><li class="">
-                        <a href="/pages/contact" title="">Contact</a>
-                    </li></ul>
-    </div>
-</div>
-<div class="menuMobileOverlay hidden-md hidden-lg"></div>
-</div>
-        <main class="mainContent" role="main">
-            
-<!-- BEGIN content_for_index --><div id="shopify-section-1551027504217" class="shopify-section velaFramework"><div class="banner-slideShow">
-    <div class="velaSlideshow">
-        <div data-section-id="1551027504217" data-section-type="velaSlideshowSection"><div class="velaSlideshowWrapper"><div id="velaSlideshows1551027504217" class="vela--slideshow slick-initialized slick-slider slick-dotted" data-autoplay="true" data-speed="8000" data-navigation="true" data-pagination="true"><button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="display: block;">Previous</button>
-
-                            <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 4047px;"><div class="velassSlide velassSlide1551027504217-0 slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00" style="width: 1349px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;">
-                                
-                                
-                                    <a href="/collections/beauty" class="velassLink" tabindex="0">
-                                
-                                    <div class="velassImage" data-image="https://cdn.shopify.com/s/files/1/2517/5168/files/slide31.jpg?v=1561202012">
-                                        
-                                            <img class="img-responsive" alt="velastore demo" src="https://cdn.shopify.com/s/files/1/2517/5168/files/slide32_1920x820.jpg">
-                                        
-                                    </div>
-                                
-                                    </a>
-                                
-                                <div class="velassCaption caption-left">
-                                    <div class="container">
-                                        <div class="velassCaptionContent">
-                                            <div class="velassCaptionInner"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="velassSlide velassSlide1551027504217-1 slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01" style="width: 1349px; position: relative; left: -1349px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease 0s;">
-                                
-                                
-                                    <a href="/collections/make-up" class="velassLink" tabindex="-1">
-                                
-                                    <div class="velassImage" data-image="https://cdn.shopify.com/s/files/1/2517/5168/files/slide32.jpg?v=1561202032">
-                                        
-                                            <img class="img-responsive" alt="velastore demo" src="https://cdn.shopify.com/s/files/1/2517/5168/files/slide31_1920x820.jpg?v=1561202012">
-                                        
-                                    </div>
-                                
-                                    </a>
-                                
-                                <div class="velassCaption caption-left">
-                                    <div class="container">
-                                        <div class="velassCaptionContent">
-                                            <div class="velassCaptionInner"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><div class="velassSlide velassSlide1551027735220 slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control02" style="width: 1349px; position: relative; left: -2698px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease 0s;">
-                                
-                                
-                                    <a href="/collections/spa" class="velassLink" tabindex="-1">
-                                
-                                    <div class="velassImage" data-image="https://cdn.shopify.com/s/files/1/2517/5168/files/slide33.jpg?v=1561202202">
-                                        
-                                            <img class="img-responsive" alt="velastore demo" src="https://cdn.shopify.com/s/files/1/2517/5168/files/slide33_1920x820.jpg?v=1561202202">
-                                        
-                                    </div>
-                                
-                                    </a>
-                                
-                                <div class="velassCaption caption-left">
-                                    <div class="container">
-                                        <div class="velassCaptionContent">
-                                            <div class="velassCaptionInner"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div></div></div>
-                        
-
-                            
-                        
-
-                            
-                        
-                    <button class="slick-next slick-arrow" aria-label="Next" type="button" style="display: block;">Next</button><ul class="slick-dots" style="display: block;" role="tablist"><li class="slick-active" role="presentation"><button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 3" tabindex="0" aria-selected="true">1</button></li><li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control01" aria-controls="slick-slide01" aria-label="2 of 3" tabindex="-1">2</button></li><li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control02" aria-controls="slick-slide02" aria-label="3 of 3" tabindex="-1">3</button></li></ul></div>
-                </div></div>
-    </div>
-</div>
-</div><div id="shopify-section-1560787239419" class="shopify-section velaFramework"><div id="proList1560787239419" class="velaProductsBanner velaBlock" style="background-color: rgba(0,0,0,0);
-                                     padding:90px 0 30px; ">
-   <div class="container">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Beautypress – Beautypress</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A100%2C200%2C300%2C400%2C500%2C600%2C700%7CNiconne%7CPoppins%7CMontserrat&amp;subset=">
+    <style type="text/css" media="screen">
+        #ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active,
+        #ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td a.ui-state-active:hover,
+        body #booked-profile-page input[type=submit].button-primary:hover,
+        body .booked-list-view button.button:hover,
+        body .booked-list-view input[type=submit].button-primary:hover,
+        body table.booked-calendar input[type=submit].button-primary:hover,
+        body .booked-modal input[type=submit].button-primary:hover,
+        body table.booked-calendar th,
+        body table.booked-calendar thead,
+        body table.booked-calendar thead th,
+        body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,
+        body #booked-profile-page .booked-profile-header,
+        body #booked-profile-page .booked-tabs li.active a,
+        body #booked-profile-page .booked-tabs li.active a:hover,
+        body #booked-profile-page .appt-block .google-cal-button>a:hover,
+        #ui-datepicker-div.booked_custom_date_picker .ui-datepicker-header {
+            background: #6a1b9a!important
+        }
         
+        body #booked-profile-page input[type=submit].button-primary:hover,
+        body table.booked-calendar input[type=submit].button-primary:hover,
+        body .booked-list-view button.button:hover,
+        body .booked-list-view input[type=submit].button-primary:hover,
+        body .booked-modal input[type=submit].button-primary:hover,
+        body table.booked-calendar th,
+        body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,
+        body #booked-profile-page .booked-profile-header,
+        body #booked-profile-page .appt-block .google-cal-button>a:hover {
+            border-color: #6a1b9a!important
+        }
         
-        <div class="velaContent rowFlex rowFlexMargin banner_left">
-         	<div class="col-xs-12 col-sm-4 hidden-xs hidden-sm">
-	         	<a href="#" title="velastore demo">
-	                
-	                    <img class="img-responsive" alt="velastore demo" src="https://cdn.shopify.com/s/files/1/2517/5168/files/banner3_2000x.jpg?v=1560786717">
-	                
-	            </a>
-           	</div>
-           	<div class="col-xs-12 col-sm-12 col-md-8">
-                
-                    <h3 class="velaTitle velaHomeTitle text-center clearfix">
-                            
-                                <span class="title">Beauty</span>
-                            
-                    </h3>
-                
-                <div class="proOwlCarousel owlCarouselPlay">
-                        <div class="owl-carousel owl-loaded owl-drag" data-nav="true" data-dots="true" data-loop="true" data-autoplay="false" data-autoplaytimeout="10000" data-columnone="3" data-columntwo="2" data-columnthree="2" data-columnfour="2" data-columnfive="1">
-                            
-                                
-                                    
-                                
-                            
-                                
-                                    
-                                
-                            
-                                
-                                    
-                                
-                            
-                                
-                                    
-                                
-                            
-                                
-                                    
-                                
-                            
-                                
-                                    
-                                
-                            
-                                
-                                    
-                                
-                            
-                                
-                                    
-                                
-                            
-		            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1066px, 0px, 0px); transition: all 0s ease 0s; width: 4267px;"><div class="owl-item cloned" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="87.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/moisturizing-cream">
-                <img class="img-responsive" alt="Moisturizing cream" src="https://cdn.shopify.com/s/files/1/2517/5168/products/7.jpg?v=1556336963"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="moisturizing-cream" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155380293711"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Beauty" title="Beauty">Beauty</a></div><h5 class="proName">
-                <a href="/products/moisturizing-cream">Moisturizing cream</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$87.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item cloned" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="63.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/baebody-eye-cream">
-                <img class="img-responsive" alt="Baebody eye cream" src="https://cdn.shopify.com/s/files/1/2517/5168/products/11.jpg?v=1556336912"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="baebody-eye-cream" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155374592079"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Spa" title="Spa">Spa</a></div><h5 class="proName">
-                <a href="/products/baebody-eye-cream">Baebody eye cream</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$63.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item cloned" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="93.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/whitening-cream-1">
-                <img class="img-responsive" alt="Whitening cream" src="https://cdn.shopify.com/s/files/1/2517/5168/products/6.jpg?v=1556336847"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="whitening-cream-1" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155368464463"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Spa" title="Spa">Spa</a></div><h5 class="proName">
-                <a href="/products/whitening-cream-1">Whitening cream</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$93.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item cloned" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid  lastItem" data-price="93.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/silky-smooth-skin">
-                <img class="img-responsive" alt="Silky smooth skin" src="https://cdn.shopify.com/s/files/1/2517/5168/products/5.jpg?v=1556336802"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="silky-smooth-skin" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155362664527"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Beauty" title="Beauty">Beauty</a></div><h5 class="proName">
-                <a href="/products/silky-smooth-skin">Silky smooth skin</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$93.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item active" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="70.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/water-flower-1">
-                <img class="img-responsive" alt="Water flower" src="https://cdn.shopify.com/s/files/1/2517/5168/products/10.jpg?v=1556337337"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="water-flower-1" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155414044751"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Beauty" title="Beauty">Beauty</a></div><h5 class="proName">
-                <a href="/products/water-flower-1">Water flower</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$70.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item active" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="58.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/eye-gel-for-dark">
-                <img class="img-responsive" alt="Eye gel for dark" src="https://cdn.shopify.com/s/files/1/2517/5168/products/12.jpg?v=1556337262"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="eye-gel-for-dark" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155407654991"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Beauty" title="Beauty">Beauty</a></div><h5 class="proName">
-                <a href="/products/eye-gel-for-dark">Eye gel for dark</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$58.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item active" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="41.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/nutritional-herbs">
-                <img class="img-responsive" alt="Nutritional herbs" src="https://cdn.shopify.com/s/files/1/2517/5168/products/9.jpg?v=1556337107"></a><span class="labelSale">Sale</span><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="nutritional-herbs" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155397136463"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Beauty" title="Beauty">Beauty</a></div><h5 class="proName">
-                <a href="/products/nutritional-herbs">Nutritional herbs</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$41.00</span></div><div class="priceProduct priceCompare"><span class="money">$61.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="87.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/against-aging">
-                <img class="img-responsive" alt="Against aging" src="https://cdn.shopify.com/s/files/1/2517/5168/products/8.jpg?v=1556337040"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="against-aging" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155391139919"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Make%20up" title="Make up">Make up</a></div><h5 class="proName">
-                <a href="/products/against-aging">Against aging</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$87.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="87.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/moisturizing-cream">
-                <img class="img-responsive" alt="Moisturizing cream" src="https://cdn.shopify.com/s/files/1/2517/5168/products/7.jpg?v=1556336963"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="moisturizing-cream" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155380293711"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Beauty" title="Beauty">Beauty</a></div><h5 class="proName">
-                <a href="/products/moisturizing-cream">Moisturizing cream</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$87.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="63.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/baebody-eye-cream">
-                <img class="img-responsive" alt="Baebody eye cream" src="https://cdn.shopify.com/s/files/1/2517/5168/products/11.jpg?v=1556336912"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="baebody-eye-cream" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155374592079"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Spa" title="Spa">Spa</a></div><h5 class="proName">
-                <a href="/products/baebody-eye-cream">Baebody eye cream</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$63.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="93.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/whitening-cream-1">
-                <img class="img-responsive" alt="Whitening cream" src="https://cdn.shopify.com/s/files/1/2517/5168/products/6.jpg?v=1556336847"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="whitening-cream-1" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155368464463"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Spa" title="Spa">Spa</a></div><h5 class="proName">
-                <a href="/products/whitening-cream-1">Whitening cream</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$93.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid  lastItem" data-price="93.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/silky-smooth-skin">
-                <img class="img-responsive" alt="Silky smooth skin" src="https://cdn.shopify.com/s/files/1/2517/5168/products/5.jpg?v=1556336802"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="silky-smooth-skin" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155362664527"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Beauty" title="Beauty">Beauty</a></div><h5 class="proName">
-                <a href="/products/silky-smooth-skin">Silky smooth skin</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$93.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item cloned" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="70.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/water-flower-1">
-                <img class="img-responsive" alt="Water flower" src="https://cdn.shopify.com/s/files/1/2517/5168/products/10.jpg?v=1556337337"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="water-flower-1" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155414044751"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Beauty" title="Beauty">Beauty</a></div><h5 class="proName">
-                <a href="/products/water-flower-1">Water flower</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$70.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item cloned" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="58.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/eye-gel-for-dark">
-                <img class="img-responsive" alt="Eye gel for dark" src="https://cdn.shopify.com/s/files/1/2517/5168/products/12.jpg?v=1556337262"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="eye-gel-for-dark" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155407654991"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Beauty" title="Beauty">Beauty</a></div><h5 class="proName">
-                <a href="/products/eye-gel-for-dark">Eye gel for dark</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$58.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item cloned" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="41.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/nutritional-herbs">
-                <img class="img-responsive" alt="Nutritional herbs" src="https://cdn.shopify.com/s/files/1/2517/5168/products/9.jpg?v=1556337107"></a><span class="labelSale">Sale</span><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="nutritional-herbs" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155397136463"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Beauty" title="Beauty">Beauty</a></div><h5 class="proName">
-                <a href="/products/nutritional-herbs">Nutritional herbs</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$41.00</span></div><div class="priceProduct priceCompare"><span class="money">$61.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item cloned" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="87.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/against-aging">
-                <img class="img-responsive" alt="Against aging" src="https://cdn.shopify.com/s/files/1/2517/5168/products/8.jpg?v=1556337040"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="against-aging" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155391139919"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Make%20up" title="Make up">Make up</a></div><h5 class="proName">
-                <a href="/products/against-aging">Against aging</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$87.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div></div></div><div class="owl-nav"><div class="owl-prev">prev</div><div class="owl-next">next</div></div><div class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div></div></div>
-           		</div>
-			</div>
-        </div>
-    </div>
-</div>
-
-
-</div><div id="shopify-section-1551202092915" class="shopify-section velaFramework">
-<div class="velaMultiBanner" style="background-color: rgba(0,0,0,0);
-                                     ">
-    <div class="container">
-        <div class="velaMultiBannerInner gutter20">
-            <div class="velaContent"><div class="rowFlex rowFlexMargin">
-                        
-<div class="col-xs-12 col-sm-12">
-                                <div class="velaBlock velaBanner effectFour">                                       
-                                    <a href="/collections/bb-creams" title="velastore demo"><img class="img-responsive border-radius1" alt="velastore demo" src="https://cdn.shopify.com/s/files/1/2517/5168/files/banner5_1170x386.jpg?v=1561202348"></a>
-                                </div>
-                            </div>
-                        
-                    </div></div>
-        </div>
-    </div>
-</div>
-</div><div id="shopify-section-1560870276275" class="shopify-section velaFramework"><div id="proList1560870276275" class="velaProductsBanner velaBlock" style="background-color: rgba(0,0,0,0);
-                                     padding:50px 0 30px; ">
-   <div class="container">
+        body table.booked-calendar tr.days,
+        body table.booked-calendar tr.days th,
+        body .booked-calendarSwitcher.calendar,
+        body #booked-profile-page .booked-tabs,
+        #ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar thead,
+        #ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar thead th {
+            background: #6a1b9a!important
+        }
         
+        body table.booked-calendar tr.days th,
+        body #booked-profile-page .booked-tabs {
+            border-color: #6a1b9a!important
+        }
         
-        <div class="velaContent rowFlex rowFlexMargin banner_right">
-         	<div class="col-xs-12 col-sm-4 hidden-xs hidden-sm">
-	         	<a href="#" title="velastore demo">
-	                
-	                    <img class="img-responsive" alt="velastore demo" src="https://cdn.shopify.com/s/files/1/2517/5168/files/banner4_2000x.jpg?v=1560870227">
-	                
-	            </a>
-           	</div>
-           	<div class="col-xs-12 col-sm-12 col-md-8">
-                
-                    <h3 class="velaTitle velaHomeTitle text-center clearfix">
-                            
-                                <span class="title">Make Up</span>
-                            
-                    </h3>
-                
-                <div class="proOwlCarousel owlCarouselPlay">
-                        <div class="owl-carousel owl-loaded owl-drag" data-nav="true" data-dots="true" data-loop="true" data-autoplay="false" data-autoplaytimeout="10000" data-columnone="3" data-columntwo="2" data-columnthree="2" data-columnfour="2" data-columnfive="1">
-                            
-                                
-                                    
-                                
-                            
-                                
-                                    
-                                
-                            
-                                
-                                    
-                                
-                            
-                                
-                                    
-                                
-                            
-                                
-                                    
-                                
-                            
-                                
-                                    
-                                
-                            
-                                
-                                    
-                                
-                            
-                                
-                                    
-                                
-                            
-		            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1066px, 0px, 0px); transition: all 0s ease 0s; width: 4267px;"><div class="owl-item cloned" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="87.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/moisturizing-cream">
-                <img class="img-responsive" alt="Moisturizing cream" src="https://cdn.shopify.com/s/files/1/2517/5168/products/7.jpg?v=1556336963"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="moisturizing-cream" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155380293711"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Beauty" title="Beauty">Beauty</a></div><h5 class="proName">
-                <a href="/products/moisturizing-cream">Moisturizing cream</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$87.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item cloned" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="63.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/baebody-eye-cream">
-                <img class="img-responsive" alt="Baebody eye cream" src="https://cdn.shopify.com/s/files/1/2517/5168/products/11.jpg?v=1556336912"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="baebody-eye-cream" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155374592079"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Spa" title="Spa">Spa</a></div><h5 class="proName">
-                <a href="/products/baebody-eye-cream">Baebody eye cream</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$63.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item cloned" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="93.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/whitening-cream-1">
-                <img class="img-responsive" alt="Whitening cream" src="https://cdn.shopify.com/s/files/1/2517/5168/products/6.jpg?v=1556336847"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="whitening-cream-1" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155368464463"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Spa" title="Spa">Spa</a></div><h5 class="proName">
-                <a href="/products/whitening-cream-1">Whitening cream</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$93.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item cloned" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid  lastItem" data-price="93.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/silky-smooth-skin">
-                <img class="img-responsive" alt="Silky smooth skin" src="https://cdn.shopify.com/s/files/1/2517/5168/products/5.jpg?v=1556336802"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="silky-smooth-skin" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155362664527"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Beauty" title="Beauty">Beauty</a></div><h5 class="proName">
-                <a href="/products/silky-smooth-skin">Silky smooth skin</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$93.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item active" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="70.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/water-flower-1">
-                <img class="img-responsive" alt="Water flower" src="https://cdn.shopify.com/s/files/1/2517/5168/products/10.jpg?v=1556337337"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="water-flower-1" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155414044751"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Beauty" title="Beauty">Beauty</a></div><h5 class="proName">
-                <a href="/products/water-flower-1">Water flower</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$70.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item active" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="58.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/eye-gel-for-dark">
-                <img class="img-responsive" alt="Eye gel for dark" src="https://cdn.shopify.com/s/files/1/2517/5168/products/12.jpg?v=1556337262"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="eye-gel-for-dark" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155407654991"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Beauty" title="Beauty">Beauty</a></div><h5 class="proName">
-                <a href="/products/eye-gel-for-dark">Eye gel for dark</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$58.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item active" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="41.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/nutritional-herbs">
-                <img class="img-responsive" alt="Nutritional herbs" src="https://cdn.shopify.com/s/files/1/2517/5168/products/9.jpg?v=1556337107"></a><span class="labelSale">Sale</span><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="nutritional-herbs" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155397136463"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Beauty" title="Beauty">Beauty</a></div><h5 class="proName">
-                <a href="/products/nutritional-herbs">Nutritional herbs</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$41.00</span></div><div class="priceProduct priceCompare"><span class="money">$61.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="87.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/against-aging">
-                <img class="img-responsive" alt="Against aging" src="https://cdn.shopify.com/s/files/1/2517/5168/products/8.jpg?v=1556337040"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="against-aging" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155391139919"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Make%20up" title="Make up">Make up</a></div><h5 class="proName">
-                <a href="/products/against-aging">Against aging</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$87.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="87.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/moisturizing-cream">
-                <img class="img-responsive" alt="Moisturizing cream" src="https://cdn.shopify.com/s/files/1/2517/5168/products/7.jpg?v=1556336963"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="moisturizing-cream" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155380293711"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Beauty" title="Beauty">Beauty</a></div><h5 class="proName">
-                <a href="/products/moisturizing-cream">Moisturizing cream</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$87.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="63.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/baebody-eye-cream">
-                <img class="img-responsive" alt="Baebody eye cream" src="https://cdn.shopify.com/s/files/1/2517/5168/products/11.jpg?v=1556336912"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="baebody-eye-cream" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155374592079"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Spa" title="Spa">Spa</a></div><h5 class="proName">
-                <a href="/products/baebody-eye-cream">Baebody eye cream</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$63.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="93.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/whitening-cream-1">
-                <img class="img-responsive" alt="Whitening cream" src="https://cdn.shopify.com/s/files/1/2517/5168/products/6.jpg?v=1556336847"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="whitening-cream-1" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155368464463"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Spa" title="Spa">Spa</a></div><h5 class="proName">
-                <a href="/products/whitening-cream-1">Whitening cream</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$93.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid  lastItem" data-price="93.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/silky-smooth-skin">
-                <img class="img-responsive" alt="Silky smooth skin" src="https://cdn.shopify.com/s/files/1/2517/5168/products/5.jpg?v=1556336802"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="silky-smooth-skin" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155362664527"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Beauty" title="Beauty">Beauty</a></div><h5 class="proName">
-                <a href="/products/silky-smooth-skin">Silky smooth skin</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$93.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item cloned" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="70.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/water-flower-1">
-                <img class="img-responsive" alt="Water flower" src="https://cdn.shopify.com/s/files/1/2517/5168/products/10.jpg?v=1556337337"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="water-flower-1" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155414044751"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Beauty" title="Beauty">Beauty</a></div><h5 class="proName">
-                <a href="/products/water-flower-1">Water flower</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$70.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item cloned" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="58.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/eye-gel-for-dark">
-                <img class="img-responsive" alt="Eye gel for dark" src="https://cdn.shopify.com/s/files/1/2517/5168/products/12.jpg?v=1556337262"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="eye-gel-for-dark" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155407654991"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Beauty" title="Beauty">Beauty</a></div><h5 class="proName">
-                <a href="/products/eye-gel-for-dark">Eye gel for dark</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$58.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item cloned" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="41.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/nutritional-herbs">
-                <img class="img-responsive" alt="Nutritional herbs" src="https://cdn.shopify.com/s/files/1/2517/5168/products/9.jpg?v=1556337107"></a><span class="labelSale">Sale</span><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="nutritional-herbs" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155397136463"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Beauty" title="Beauty">Beauty</a></div><h5 class="proName">
-                <a href="/products/nutritional-herbs">Nutritional herbs</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$41.00</span></div><div class="priceProduct priceCompare"><span class="money">$61.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item cloned" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="87.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/against-aging">
-                <img class="img-responsive" alt="Against aging" src="https://cdn.shopify.com/s/files/1/2517/5168/products/8.jpg?v=1556337040"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="against-aging" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155391139919"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Make%20up" title="Make up">Make up</a></div><h5 class="proName">
-                <a href="/products/against-aging">Against aging</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$87.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div></div></div><div class="owl-nav"><div class="owl-prev">prev</div><div class="owl-next">next</div></div><div class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div></div></div>
-           		</div>
-			</div>
-        </div>
-    </div>
-</div>
-
-
-</div><div id="shopify-section-1561203557538" class="shopify-section velaFramework">
-<div class="velaMultiBanner" style="background-color: rgba(0,0,0,0);
-                                     ">
-    <div class="container">
-        <div class="velaMultiBannerInner gutter20">
-            <div class="velaContent"><div class="rowFlex rowFlexMargin">
-                        
-<div class="col-xs-12 col-sm-12">
-                                <div class="velaBlock velaBanner effectFour">                                       
-                                    <a href="#" title="velastore demo"><img class="img-responsive border-radius1" alt="velastore demo" src="https://cdn.shopify.com/s/files/1/2517/5168/files/banner6_1170x150.jpg?v=1561203575"></a>
-                                </div>
-                            </div>
-                        
-                    </div></div>
-        </div>
-    </div>
-</div>
-</div><div id="shopify-section-1561203779079" class="shopify-section velaFramework"><div id="proList1561203779079" class="velaProductsBanner velaBlock" style="background-color: rgba(0,0,0,0);
-                                     padding:50px 0 90px; ">
-   <div class="container">
+        #ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a,
+        #ui-datepicker-div.booked_custom_date_picker table.ui-datepicker-calendar tbody td.ui-datepicker-today a:hover,
+        body #booked-profile-page input[type=submit].button-primary,
+        body table.booked-calendar input[type=submit].button-primary,
+        body .booked-list-view button.button,
+        body .booked-list-view input[type=submit].button-primary,
+        body .booked-list-view button.button,
+        body .booked-list-view input[type=submit].button-primary,
+        body .booked-modal input[type=submit].button-primary,
+        body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,
+        body #booked-profile-page .booked-profile-appt-list .appt-block.approved .status-block,
+        body #booked-profile-page .appt-block .google-cal-button>a,
+        body .booked-modal p.booked-title-bar,
+        body table.booked-calendar td:hover .date span,
+        body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,
+        body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover,
+        .booked-ms-modal .booked-book-appt {
+            background: #56C477
+        }
         
+        body #booked-profile-page input[type=submit].button-primary,
+        body table.booked-calendar input[type=submit].button-primary,
+        body .booked-list-view button.button,
+        body .booked-list-view input[type=submit].button-primary,
+        body .booked-list-view button.button,
+        body .booked-list-view input[type=submit].button-primary,
+        body .booked-modal input[type=submit].button-primary,
+        body #booked-profile-page .appt-block .google-cal-button>a,
+        body table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,
+        body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active,
+        body .booked-list-view a.booked_list_date_picker_trigger.booked-dp-active:hover {
+            border-color: #56C477
+        }
         
-        <div class="velaContent rowFlex rowFlexMargin banner_left">
-         	<div class="col-xs-12 col-sm-4 hidden-xs hidden-sm">
-	         	<a href="#" title="velastore demo">
-	                
-	                    <img class="img-responsive" alt="velastore demo" src="https://cdn.shopify.com/s/files/1/2517/5168/files/banner7_2000x.jpg?v=1561203791">
-	                
-	            </a>
-           	</div>
-           	<div class="col-xs-12 col-sm-12 col-md-8">
-                
-                    <h3 class="velaTitle velaHomeTitle text-center clearfix">
-                            
-                                <span class="title">Spa</span>
-                            
-                    </h3>
-                
-                <div class="proOwlCarousel owlCarouselPlay">
-                        <div class="owl-carousel owl-loaded owl-drag" data-nav="true" data-dots="true" data-loop="false" data-autoplay="false" data-autoplaytimeout="10000" data-columnone="3" data-columntwo="3" data-columnthree="2" data-columnfour="2" data-columnfive="1">
-                            
-                                
-                                    
-                                
-                            
-                                
-                                    
-                                
-                            
-                                
-                                    
-                                
-                            
-		            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 801px;"><div class="owl-item active" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="63.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/baebody-eye-cream">
-                <img class="img-responsive" alt="Baebody eye cream" src="https://cdn.shopify.com/s/files/1/2517/5168/products/11.jpg?v=1556336912"></a><div class="velaSwatchCus">
-                    
+        body .booked-modal .bm-window p i.fa,
+        body .booked-modal .bm-window a,
+        body .booked-appt-list .booked-public-appointment-title,
+        body .booked-modal .bm-window p.appointment-title,
+        .booked-ms-modal.visible:hover .booked-book-appt {
+            color: #56C477
+        }
+        
+        .booked-appt-list .timeslot.has-title .booked-public-appointment-title {
+            color: inherit
+        }
+    </style>
+    <link rel="dns-prefetch" href="//maps.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="alternate" type="application/rss+xml" title="Beautypress » Feed" href="https://wp.xpeedstudio.com/beautypress/feed/">
+    <link rel="alternate" type="application/rss+xml" title="Beautypress » Comments Feed" href="https://wp.xpeedstudio.com/beautypress/comments/feed/">
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline!important;
+            border: none!important;
+            box-shadow: none!important;
+            height: 1em!important;
+            width: 1em!important;
+            margin: 0 .07em!important;
+            vertical-align: -0.1em!important;
+            background: none!important;
+            padding: 0!important
+        }
+    </style>
+    <link data-minify="1" rel="stylesheet" id="booked-icons-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/booked/assets/css/icons-43654ac4d8143f89e056224ee1c3f855.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" id="booked-tooltipster-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/booked/assets/js/tooltipster/css/tooltipster-d3581026719f72beb3b15d06631807ea.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" id="booked-tooltipster-theme-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/booked/assets/js/tooltipster/css/themes/tooltipster-light-c0a0ccd5d65b1bd0fdafddd06e525772.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" id="booked-animations-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/booked/assets/css/animations-019da08d14b47374575998d793af930a.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" id="booked-styles-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/booked/assets/css/styles-754fd633b10b04c4dfccfbffa89d7b0d.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" id="booked-responsive-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/booked/assets/css/responsive-ad6d1c5281b67ee2627782efb9bf044e.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" id="contact-form-7-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/contact-form-7/includes/css/styles-6282ed7a0c6159a429f451cc96c1a07a.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" id="rs-plugin-settings-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/revslider/public/assets/css/settings-0b5a6feb523ff358a0091d974294b16c.css" type="text/css" media="all">
+    <style id="rs-plugin-settings-inline-css" type="text/css"></style>
+    <link data-minify="1" rel="stylesheet" id="woocommerce-layout-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/woocommerce/assets/css/woocommerce-layout-6b5b0817258ddf7c0996cca473cba3e7.css" type="text/css" media="all">
+    <link rel="stylesheet" id="woocommerce-smallscreen-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen-3.4.3.css" type="text/css" media="only screen and (max-width: 768px)">
+    <link data-minify="1" rel="stylesheet" id="woocommerce-general-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/woocommerce/assets/css/woocommerce-7ec63a7532d05bed6016cb771174a6dd.css" type="text/css" media="all">
+    <style id="woocommerce-inline-inline-css" type="text/css">
+        .woocommerce form .form-row .required {
+            visibility: visible
+        }
+    </style>
+    <link rel="stylesheet" id="dashicons-css" href="https://wp.xpeedstudio.com/beautypress/wp-includes/css/dashicons.min.css" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" href="https://wp.xpeedstudio.com/beautypress/home-v2/wp-content/themes/beautypress/assets/css/xs-icon.css?ver=1.0">
+    <link rel="stylesheet" id="wpmm_fontawesome_css-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/plugins/wp-megamenu/assets/font-awesome-4.7.0/css/font-awesome.min-4.7.0.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" id="wpmm_css-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/wp-megamenu/assets/css/wpmm-a08a2afc8b21f462aa52e0d911fdc42d.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" id="wp_megamenu_generated_css-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/uploads/wp-megamenu/wp-megamenu-64a007f8c21cd6f92199e30d527200aa.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" id="featuresbox_css-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/wp-megamenu/addons/wpmm-featuresbox/wpmm-featuresbox-92a2f8338b4f3eb1ce49634b394f9e15.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" id="postgrid_css-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/wp-megamenu/addons/wpmm-gridpost/wpmm-gridpost-7586d77885125c8a3290a953e13e3507.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" id="booked-fea-styles-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/booked-frontend-agents/css/styles-af68d71898cd199fa73a1ccbd3eb27c9.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" id="booked-wc-fe-styles-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/booked-woocommerce-payments/css/frontend-style-d66b67a387c49cde0d09ddd7c77a5f21.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-icons-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min-3.6.0.css" type="text/css" media="all">
+    <link rel="stylesheet" id="font-awesome-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min-4.7.0.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-animations-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/plugins/elementor/assets/lib/animations/animations.min-2.1.4.css" type="text/css" media="all">
+    <link rel="stylesheet" id="elementor-frontend-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/plugins/elementor/assets/css/frontend.min-2.1.4.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" id="elementor-post-237-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/uploads/elementor/css/post-237-b1af704637dde92302e9d3e52f21c9ea.css" type="text/css" media="all">
+    <link rel="stylesheet" id="beautypress-bootstrap-min-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/themes/beautypress/assets/css/bootstrap.min-1.0.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" id="xs-blog-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/themes/beautypress/assets/css/blog-239226e4dde9add43aeb326edc963d3e.css" type="text/css" media="all">
+    <link rel="stylesheet" id="beautypress-bootstrap-datepicker-min-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/themes/beautypress/assets/css/bootstrap-datepicker.min-1.0.css" type="text/css" media="all">
+    <link rel="stylesheet" id="beautypress-font-awesome-min-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/themes/beautypress/assets/css/font-awesome.min-1.0.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" id="beautypress-font-xs-icon-css" href="xs-icon.css" type="text/css" media="all">
+    <link rel="stylesheet" id="beautypress-owlmin-carousel-min-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/themes/beautypress/assets/css/owl.carousel.min-1.0.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" id="beautypress-isotope-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/themes/beautypress/assets/css/isotope-33ed5b74f1c41c2d8e0a0401b8ac2218.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" id="beautypress-magnific-popup-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/themes/beautypress/assets/css/magnific-popup-b2424cc2708a5ae5d84dfdc0bebdfd02.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" id="beautypress-plugins-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/themes/beautypress/assets/css/plugins-22c80568c1efec0645ec879e3017cbee.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" id="beautypress-style-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/themes/beautypress/assets/css/style-fa54ed50eef7c7acde9de5e02ef87cbd.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" id="beautypress-custom-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/themes/beautypress/assets/css/custom-fc14725e450f8dd166a474ece39e0879.css" type="text/css" media="all">
+    <style id="beautypress-custom-inline-css" type="text/css">
+        .beautypress-black-overlay-single-blog {
+            background-color: rgba(0, 0, 0, .5)
+        }
+        
+        .beautypress-footer-widget-title {
+            color: #fff
+        }
+        
+        .beautypress-footer-widget-area * p {
+            color: #fff
+        }
+        
+        .beautypress-footer-widget-area * a {
+            color: #7531A1
+        }
+        
+        .beautypress-footer-section-v2 {
+            background-color: #8224e3
+        }
+        
+        .beautypress-footer-menu ul li a {
+            color: #fff
+        }
+        
+        .beautypress-footer-menu ul li a:hover {
+            color: #7531A1
+        }
+        
+        .beautypress-copyright-content {
+            background-color: #7531a1
+        }
+        
+        .beautypress-black-overlay {
+            background-color: rgba(221, 6, 6, .54)
+        }
+        
+        .beautypress-404-content .beautypress-btn-wraper a {
+            background-color: #4ca14b
+        }
+        
+        .beautypress-404-content .beautypress-btn-wraper span {
+            background-color: #FF4641
+        }
+    </style>
+    <link data-minify="1" rel="stylesheet" id="beautypress-responsive-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/themes/beautypress/assets/css/responsive-4d0a0f879659a5dafa29795986657c21.css" type="text/css" media="all">
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-includes/js/jquery/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-includes/js/jquery/jquery-migrate.min-1.4.1.js"></script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min-5.4.7.2.js"></script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min-5.4.7.2.js"></script>
+    <script data-minify="1" type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/wp-megamenu/addons/wpmm-featuresbox/wpmm-featuresbox-d9e7f09cb1af54778c4de902334664ce.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var postgrid_ajax_load = {
+            "ajax_url": "https:\/\/wp.xpeedstudio.com\/beautypress\/wp-admin\/admin-ajax.php"
+        }; /* ]]> */
+    </script>
+    <script data-minify="1" type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/wp-megamenu/addons/wpmm-gridpost/wpmm-gridpost-ad6ded1ad3902fe0a3cb00045dbea9b4.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var booked_wc_variables = {
+            "prefix": "booked_wc_",
+            "ajaxurl": "https:\/\/wp.xpeedstudio.com\/beautypress\/wp-admin\/admin-ajax.php",
+            "i18n_confirm_appt_edit": "Are you sure you want to change the appointment date? By doing so, the appointment date will need to be approved again.",
+            "i18n_pay": "Are you sure you want to add the appointment to cart and go to checkout?",
+            "i18n_mark_paid": "Are you sure you want to mark this appointment as \"Paid\"?",
+            "i18n_paid": "Paid",
+            "i18n_awaiting_payment": "Awaiting Payment",
+            "checkout_page": "https:\/\/wp.xpeedstudio.com\/beautypress\/"
+        }; /* ]]> */
+    </script>
+    <script data-minify="1" type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/booked-woocommerce-payments/js/frontend-functions-a3c01e07a8c87e5fa37fa32f951ff711.js"></script>
+    <link rel="https://api.w.org/" href="https://wp.xpeedstudio.com/beautypress/wp-json/">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wp.xpeedstudio.com/beautypress/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://wp.xpeedstudio.com/beautypress/wp-includes/wlwmanifest.xml">
+    <meta name="generator" content="WordPress 4.9.10">
+    <meta name="generator" content="WooCommerce 3.4.3">
+    <link rel="canonical" href="https://wp.xpeedstudio.com/beautypress/">
+    <link rel="shortlink" href="https://wp.xpeedstudio.com/beautypress/">
+    <style type="text/css">
+        .wp-megamenu-wrap .wpmm-nav-wrap>ul.wp-megamenu li.wpmm_dropdown_menu ul.wp-megamenu-sub-menu li.menu-item-has-children.wp-megamenu-item-284.wpmm-submenu-right>ul.wp-megamenu-sub-menu {
+            left: 100%
+        }
+        
+        .wp-megamenu-item-284>ul>li>ul {
+            background-image: url(https://demo.xpeedstudio.com/wp/beautypress/wp-content/uploads/2018/01/mega_menu_bg.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center
+        }
+        
+        .wp-megamenu-wrap .wpmm-nav-wrap>ul.wp-megamenu li.wpmm_dropdown_menu ul.wp-megamenu-sub-menu li.menu-item-has-children.wp-megamenu-item-287.wpmm-submenu-right>ul.wp-megamenu-sub-menu {
+            left: 100%
+        }
+        .beautypress-welcome-container{
+        	height: 600px !important;
+        }
+    </style>
+    <style type="text/css"></style>
+    <noscript>
+        <style>
+            .woocommerce-product-gallery {
+                opacity: 1!important
+            }
+        </style>
+    </noscript>
+    <meta name="generator" content="Powered by Slider Revolution 5.4.7.2 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
+    <script type="text/javascript">
+        function setREVStartSize(e) {
+            try {
+                e.c = jQuery(e.c);
+                var i = jQuery(window).width(),
+                    t = 9999,
+                    r = 0,
+                    n = 0,
+                    l = 0,
+                    f = 0,
+                    s = 0,
+                    h = 0;
+                if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function(e, f) {
+                        f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
+                    }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) {
+                    var u = (e.c.width(), jQuery(window).height());
+                    if (void 0 != e.fullScreenOffsetContainer) {
+                        var c = e.fullScreenOffsetContainer.split(",");
+                        if (c) jQuery.each(c, function(e, i) {
+                            u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
+                        }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))
+                    }
+                    f = u
+                } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
+                e.c.closest(".rev_slider_wrapper").css({
+                    height: f
+                })
+            } catch (d) {
+                console.log("Failure at Presize of Slider:" + d)
+            }
+        };
+    </script>
+    <script type="text/javascript" src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
+        <script type="text/javascript">
+    	$(document).ready(function(){
+    		
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:1,
+            nav:true,
+            loop:false
+        }
+    }
+})
+});
+    </script>
+    <style type="text/css" id="wp-custom-css">
+        _::-webkit-full-page-media,
+        _:future,
+        :root .menu-skew.swingInX,
+        _::-webkit-full-page-media,
+        _:future,
+        :root .menu-skew.swingOutX {
+            animation-name: none;
+            transform-origin: unset
+        }
+        
+        .beautypress-subscribe-wraper input[type="submit"] {
+            width: auto
+        }
+        
+        @media all and (-ms-high-contrast:none) {
+            .menu-skew.swingOutX,
+            .menu-skew.swingInX {
+                animation-name: none;
+                transform-origin: unset
+            }
+            .beautypress-partner-list {
+                display: block
+            }
+            .beautypress-partner-list li {
+                float: left;
+                width: 33.333%
+            }
+            .beautypress-partner-list:after {
+                display: block;
+                clear: both;
+                content: ""
+            }
+            .beautypress-subscribe-wraper h3,
+            .beautypress-footer-widget-area * p {
+                color: black
+            }
+        }
+    </style>
+    <style type="text/css"></style>
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/38/1/common.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/38/1/util.js"></script>
+</head>
 
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="baebody-eye-cream" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155374592079"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Spa" title="Spa">Spa</a></div><h5 class="proName">
-                <a href="/products/baebody-eye-cream">Baebody eye cream</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$63.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item active" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid " data-price="93.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/whitening-cream-1">
-                <img class="img-responsive" alt="Whitening cream" src="https://cdn.shopify.com/s/files/1/2517/5168/products/6.jpg?v=1556336847"></a><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="whitening-cream-1" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155368464463"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Spa" title="Spa">Spa</a></div><h5 class="proName">
-                <a href="/products/whitening-cream-1">Whitening cream</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$93.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div><div class="owl-item active" style="width: 236.667px; margin-right: 30px;"><div class="item">
-                                        <div class="velaProBlock grid  lastItem" data-price="38.00">
-    <div class="velaProBlockInner">
-        <div class="proHImage d-flex flexJustifyCenter">
-            <a class="proFeaturedImage" href="/products/night-cream">
-                <img class="img-responsive" alt="Night cream" src="https://cdn.shopify.com/s/files/1/2517/5168/products/2.jpg?v=1556336302"></a><span class="labelSale">Sale</span><div class="velaSwatchCus">
-                    
-
-                </div><div class="proButton clearfix">
-                    
-    <div class="productQuickView">
-        <a class="btn btnProduct btnProductQuickview" href="#velaQuickView" data-handle="night-cream" title="Quickview">
-            <span class="icon">+</span>
-          	<span>Quickview</span>
-        </a>
-    </div>
-
-<form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155316953167"><button class="btn  btnProduct btnAddToCart" type="submit" value="Submit">
-                                <span class="icon">+</span>
-                                <span>Add to Cart</span>
-                            </button></form>
-                
-            </div>
-        </div>
-        <div class="proContent text-center"><div class="productType"><a href="/collections/types?q=Spa" title="Spa">Spa</a></div><h5 class="proName">
-                <a href="/products/night-cream">Night cream</a>
-            </h5><div class="proPrice">
-                <div class="priceProduct priceSale"><span class="money">$38.00</span></div><div class="priceProduct priceCompare"><span class="money">$45.00</span></div></div>
-        </div>
-    </div>
-</div>
-                                    </div></div></div></div><div class="owl-nav disabled"><div class="owl-prev disabled">prev</div><div class="owl-next disabled">next</div></div><div class="owl-dots disabled"><div class="owl-dot active"><span></span></div></div></div>
-           		</div>
-			</div>
-        </div>
-    </div>
-</div>
-
-
-</div><div id="shopify-section-1551193775907" class="shopify-section velaFramework"><div class="velaHomeBlogs" style="background-color: #fadbd3; padding:90px 0;">
-    <div class="container">  
-        <div class="velaHomeBlogsInner"><div class="velaContent">
-                <div class="velaOwlRow owlCarouselPlay">
-                    <div class="owl-carousel owl-loaded owl-drag" data-nav="true" data-loop="false" data-autoplay="false" data-autoplaytimeout="10000" data-margin="30" data-columnone="3" data-columntwo="2" data-columnthree="2" data-columnfour="1" data-columnfive="1">
-                        
-
-                            
-                        
-
-                            
-                        
-
-                            
-                        
-
-                            
-                        
-
-                            
-                        
-
-                            
-                        
-                    <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 2400px;"><div class="owl-item active" style="width: 370px; margin-right: 30px;"><div class="velaBlogItem grid">
-                                    
-                                        
-                                            <div class="blogPostImage">
-                                                <a href="/blogs/news/contrary-to-popular" title="Contrary to popular">
-                                                    <img class="img-responsive" src="https://cdn.shopify.com/s/files/1/2517/5168/articles/b1_370x.jpg?v=1556341186" alt="Contrary to popular">
-                                                </a>
-                                            </div>
-                                        
-                                    
-                                    <div class="blogPostContent text-center">
-                                        <h3 class="blogPostTitle"><a href="/blogs/news/contrary-to-popular" title="Contrary to popular">Contrary to popular</a></h3>
-                                        
-                                        <div class="blogPostShortdesc rte mb20">
-                                            
-                                                Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin.
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="groupButton clearfix">
-                                        <div class="blogPostMeta">
-                                            <span class="articlePublish"><i class="fa fa-calendar"></i> 27 April, 2019</span> 
-                                            
-                                        </div>
-                                        <a class="btn" href="/blogs/news/contrary-to-popular">Read More</a>
-                                    </div>
-                                </div></div><div class="owl-item active" style="width: 370px; margin-right: 30px;"><div class="velaBlogItem grid">
-                                    
-                                        
-                                            <div class="blogPostImage">
-                                                <a href="/blogs/news/all-the-lorem-ipsum" title="All the Lorem Ipsum">
-                                                    <img class="img-responsive" src="https://cdn.shopify.com/s/files/1/2517/5168/articles/b9_370x.jpg?v=1556341154" alt="All the Lorem Ipsum">
-                                                </a>
-                                            </div>
-                                        
-                                    
-                                    <div class="blogPostContent text-center">
-                                        <h3 class="blogPostTitle"><a href="/blogs/news/all-the-lorem-ipsum" title="All the Lorem Ipsum">All the Lorem Ipsum</a></h3>
-                                        
-                                        <div class="blogPostShortdesc rte mb20">
-                                            
-                                                It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate.
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="groupButton clearfix">
-                                        <div class="blogPostMeta">
-                                            <span class="articlePublish"><i class="fa fa-calendar"></i> 27 April, 2019</span> 
-                                            
-                                        </div>
-                                        <a class="btn" href="/blogs/news/all-the-lorem-ipsum">Read More</a>
-                                    </div>
-                                </div></div><div class="owl-item active" style="width: 370px; margin-right: 30px;"><div class="velaBlogItem grid">
-                                    
-                                        
-                                            <div class="blogPostImage">
-                                                <a href="/blogs/news/there-are-many-variations-1" title="There are many variations">
-                                                    <img class="img-responsive" src="https://cdn.shopify.com/s/files/1/2517/5168/articles/b8_370x.jpg?v=1556341104" alt="There are many variations">
-                                                </a>
-                                            </div>
-                                        
-                                    
-                                    <div class="blogPostContent text-center">
-                                        <h3 class="blogPostTitle"><a href="/blogs/news/there-are-many-variations-1" title="There are many variations">There are many variations</a></h3>
-                                        
-                                        <div class="blogPostShortdesc rte mb20">
-                                            
-                                                <span>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you.</span>
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="groupButton clearfix">
-                                        <div class="blogPostMeta">
-                                            <span class="articlePublish"><i class="fa fa-calendar"></i> 27 April, 2019</span> 
-                                            
-                                        </div>
-                                        <a class="btn" href="/blogs/news/there-are-many-variations-1">Read More</a>
-                                    </div>
-                                </div></div><div class="owl-item" style="width: 370px; margin-right: 30px;"><div class="velaBlogItem grid">
-                                    
-                                        
-                                            <div class="blogPostImage">
-                                                <a href="/blogs/news/nemo-enim-ipsam" title="Nemo enim ipsam">
-                                                    <img class="img-responsive" src="https://cdn.shopify.com/s/files/1/2517/5168/articles/b7_370x.jpg?v=1556341045" alt="Nemo enim ipsam">
-                                                </a>
-                                            </div>
-                                        
-                                    
-                                    <div class="blogPostContent text-center">
-                                        <h3 class="blogPostTitle"><a href="/blogs/news/nemo-enim-ipsam" title="Nemo enim ipsam">Nemo enim ipsam</a></h3>
-                                        
-                                        <div class="blogPostShortdesc rte mb20">
-                                            
-                                                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam.
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="groupButton clearfix">
-                                        <div class="blogPostMeta">
-                                            <span class="articlePublish"><i class="fa fa-calendar"></i> 27 April, 2019</span> 
-                                            
-                                        </div>
-                                        <a class="btn" href="/blogs/news/nemo-enim-ipsam">Read More</a>
-                                    </div>
-                                </div></div><div class="owl-item" style="width: 370px; margin-right: 30px;"><div class="velaBlogItem grid">
-                                    
-                                        
-                                            <div class="blogPostImage">
-                                                <a href="/blogs/news/excepteur-sint-occae" title="Excepteur sint occae">
-                                                    <img class="img-responsive" src="https://cdn.shopify.com/s/files/1/2517/5168/articles/b6_370x.jpg?v=1556341005" alt="Excepteur sint occae">
-                                                </a>
-                                            </div>
-                                        
-                                    
-                                    <div class="blogPostContent text-center">
-                                        <h3 class="blogPostTitle"><a href="/blogs/news/excepteur-sint-occae" title="Excepteur sint occae">Excepteur sint occae</a></h3>
-                                        
-                                        <div class="blogPostShortdesc rte mb20">
-                                            
-                                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="groupButton clearfix">
-                                        <div class="blogPostMeta">
-                                            <span class="articlePublish"><i class="fa fa-calendar"></i> 27 April, 2019</span> 
-                                            
-                                        </div>
-                                        <a class="btn" href="/blogs/news/excepteur-sint-occae">Read More</a>
-                                    </div>
-                                </div></div><div class="owl-item" style="width: 370px; margin-right: 30px;"><div class="velaBlogItem grid">
-                                    
-                                        
-                                            <div class="blogPostImage">
-                                                <a href="/blogs/news/there-are-many-variations" title="There are many variations">
-                                                    <img class="img-responsive" src="https://cdn.shopify.com/s/files/1/2517/5168/articles/b5_370x.jpg?v=1556340969" alt="There are many variations">
-                                                </a>
-                                            </div>
-                                        
-                                    
-                                    <div class="blogPostContent text-center">
-                                        <h3 class="blogPostTitle"><a href="/blogs/news/there-are-many-variations" title="There are many variations">There are many variations</a></h3>
-                                        
-                                        <div class="blogPostShortdesc rte mb20">
-                                            
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
-                                            
-                                        </div>
-                                    </div>
-                                    <div class="groupButton clearfix">
-                                        <div class="blogPostMeta">
-                                            <span class="articlePublish"><i class="fa fa-calendar"></i> 27 April, 2019</span> 
-                                            
-                                        </div>
-                                        <a class="btn" href="/blogs/news/there-are-many-variations">Read More</a>
-                                    </div>
-                                </div></div></div></div><div class="owl-nav"><div class="owl-prev disabled">prev</div><div class="owl-next">next</div></div><div class="owl-dots disabled"></div></div>
-                </div>
+<body class="home page-template page-template-template page-template-template-full-width page-template-templatetemplate-full-width-php page page-id-237 woocommerce-js wp-megamenu elementor-default elementor-page elementor-page-237" data-spy="scroll" data-target=".navbar-collapse" data-elementor-device-mode="desktop">
+    <div id="preloader" class="loaded">
+        <div class="preloader-window left-window"></div>
+        <div class="preloader-window right-window"></div>
+        <div class="preloader-content"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/themes/beautypress/assets/img/prelaoder-logo.png" alt="Beautypress">
+            <h2>BeautyPress</h2></div>
+        <div class="spinner-block">
+            <div class="spinner-eff spinner-eff-3">
+                <div class="circle circle-1"></div>
+                <div class="circle circle-2"></div>
+                <div class="circle circle-3"></div>
             </div>
         </div>
     </div>
-</div>
-</div><div id="shopify-section-1560445800187" class="shopify-section velaFramework">
-
-<div class="velaListProlist velaProducts" style="padding:100px 0 70px;">
-    <div class="container">      
-        <div class="velaContent">
-            <div class=" proList row"><div class="col-xs-12 col-sm-6 clearfix">
-                            <div class="velaBlock"><h4 class="velaTitle velaHomeTitle">Best seller</h4><div class="block_conent"><div class="item"><div class="velaProBlock list1" data-price="70.00">
-    <div class="rowFlex rowFlexMargin">
-        <div class="col-xs-5 col-sm-5">
-            <div class="proHImage">
-                <a class="proFeaturedImage" href="/products/water-flower-1">
-                    <img class="img-responsive" alt="Water flower" src="https://cdn.shopify.com/s/files/1/2517/5168/products/10_800x.jpg?v=1556337337"></a><div class="velaSwatchCus">
-                        
-
-                    </div></div>
-        </div>
-        <div class="col-xs-7 col-sm-7">
-            <div class="proContent"><div class="productType"><a href="/collections/types?q=Beauty" title="Beauty">Beauty</a></div><h4 class="proName">
-                    <a href="/products/water-flower-1">Water flower</a>
-                </h4><div class="proPrice">
-                    <div class="priceProduct priceSale"><span class="money">$70.00</span></div></div><div class="proDescription"><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis...</p></div><form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155414044751"><button class="btn btnProduct btnAddToCart" type="submit" value="Submit">
-                                <i class="icon"></i>
-                                <span>Add to Cart</span>
-                            </button></form>
-            </div>
-        </div>
-    </div>
-</div></div><div class="item"><div class="velaProBlock list1" data-price="58.00">
-    <div class="rowFlex rowFlexMargin">
-        <div class="col-xs-5 col-sm-5">
-            <div class="proHImage">
-                <a class="proFeaturedImage" href="/products/eye-gel-for-dark">
-                    <img class="img-responsive" alt="Eye gel for dark" src="https://cdn.shopify.com/s/files/1/2517/5168/products/12_800x.jpg?v=1556337262"></a><div class="velaSwatchCus">
-                        
-
-                    </div></div>
-        </div>
-        <div class="col-xs-7 col-sm-7">
-            <div class="proContent"><div class="productType"><a href="/collections/types?q=Beauty" title="Beauty">Beauty</a></div><h4 class="proName">
-                    <a href="/products/eye-gel-for-dark">Eye gel for dark</a>
-                </h4><div class="proPrice">
-                    <div class="priceProduct priceSale"><span class="money">$58.00</span></div></div><div class="proDescription"><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis...</p></div><form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155407654991"><button class="btn btnProduct btnAddToCart" type="submit" value="Submit">
-                                <i class="icon"></i>
-                                <span>Add to Cart</span>
-                            </button></form>
-            </div>
-        </div>
-    </div>
-</div></div></div>
-                            </div>
-                        </div><div class="col-xs-12 col-sm-6 clearfix">
-                            <div class="velaBlock"><h4 class="velaTitle velaHomeTitle">New Arrivals</h4><div class="block_conent"><div class="item"><div class="velaProBlock list1" data-price="87.00">
-    <div class="rowFlex rowFlexMargin">
-        <div class="col-xs-5 col-sm-5">
-            <div class="proHImage">
-                <a class="proFeaturedImage" href="/products/against-aging">
-                    <img class="img-responsive" alt="Against aging" src="https://cdn.shopify.com/s/files/1/2517/5168/products/8_800x.jpg?v=1556337040"></a><div class="velaSwatchCus">
-                        
-
-                    </div></div>
-        </div>
-        <div class="col-xs-7 col-sm-7">
-            <div class="proContent"><div class="productType"><a href="/collections/types?q=Make%20up" title="Make up">Make up</a></div><h4 class="proName">
-                    <a href="/products/against-aging">Against aging</a>
-                </h4><div class="proPrice">
-                    <div class="priceProduct priceSale"><span class="money">$87.00</span></div></div><div class="proDescription"><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis...</p></div><form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155391139919"><button class="btn btnProduct btnAddToCart" type="submit" value="Submit">
-                                <i class="icon"></i>
-                                <span>Add to Cart</span>
-                            </button></form>
-            </div>
-        </div>
-    </div>
-</div></div><div class="item"><div class="velaProBlock list1" data-price="41.00">
-    <div class="rowFlex rowFlexMargin">
-        <div class="col-xs-5 col-sm-5">
-            <div class="proHImage">
-                <a class="proFeaturedImage" href="/products/perfect-spice">
-                    <img class="img-responsive" alt="Perfect Spice" src="https://cdn.shopify.com/s/files/1/2517/5168/products/4_0428b399-cf50-4e0a-898b-03507acbd8e2_800x.jpg?v=1556336684"></a><span class="labelSale">Sale</span><div class="velaSwatchCus">
-                        
-
-                    </div></div>
-        </div>
-        <div class="col-xs-7 col-sm-7">
-            <div class="proContent"><div class="productType"><a href="/collections/types?q=Make%20up" title="Make up">Make up</a></div><h4 class="proName">
-                    <a href="/products/perfect-spice">Perfect Spice</a>
-                </h4><div class="proPrice">
-                    <div class="priceProduct priceSale"><span class="money">$41.00</span></div><div class="priceProduct priceCompare"><span class="money">$51.00</span></div></div><div class="proDescription"><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis...</p></div><form action="/cart/add" method="post" enctype="multipart/form-data" class="formAddToCart">
-                    <input type="hidden" name="id" value="22155348803663"><button class="btn btnProduct btnAddToCart" type="submit" value="Submit">
-                                <i class="icon"></i>
-                                <span>Add to Cart</span>
-                            </button></form>
-            </div>
-        </div>
-    </div>
-</div></div></div>
-                            </div>
-                        </div></div>
-        </div>
-    </div>
-</div>
-
-
-</div><div id="shopify-section-1561202662937" class="shopify-section velaFramework"><div class="velaLogoList velaBlock" style="background-color: #f7f7f7;
-                                     padding:20px 0; ">
-    <div class="container-full">
-        <div class="velaLogoListInner">
-            <div class="velaContent">
-                <div class="velaOwlRow owlCarouselPlay">
-                    <div class="owl-carousel owl-loaded owl-drag" data-nav="true" data-loop="false" data-autoplay="false" data-autoplaytimeout="10000" data-columnone="6" data-columntwo="5" data-columnthree="4" data-columnfour="3" data-columnfive="2">
-                        
-                            
-                        
-                            
-                        
-                            
-                        
-                            
-                        
-                            
-                        
-                            
-                        
-                    <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1379px;"><div class="owl-item active" style="width: 199.833px; margin-right: 30px;"><div class="item">
-                                <div class="logoImage"><a href="/collections/bb-creams"><img class="img-responsive" alt="velastore demo" src="https://cdn.shopify.com/s/files/1/2517/5168/files/logo1.png?v=1561202699"></a></div>
-                            </div></div><div class="owl-item active" style="width: 199.833px; margin-right: 30px;"><div class="item">
-                                <div class="logoImage"><a href="/collections/beauty"><img class="img-responsive" alt="velastore demo" src="https://cdn.shopify.com/s/files/1/2517/5168/files/logo2.png?v=1561202724"></a></div>
-                            </div></div><div class="owl-item active" style="width: 199.833px; margin-right: 30px;"><div class="item">
-                                <div class="logoImage"><a href="/collections/frontpage"><img class="img-responsive" alt="velastore demo" src="https://cdn.shopify.com/s/files/1/2517/5168/files/logo3.png?v=1561202743"></a></div>
-                            </div></div><div class="owl-item active" style="width: 199.833px; margin-right: 30px;"><div class="item">
-                                <div class="logoImage"><a href="/collections/make-up"><img class="img-responsive" alt="velastore demo" src="https://cdn.shopify.com/s/files/1/2517/5168/files/logo4.png?v=1561202756"></a></div>
-                            </div></div><div class="owl-item active" style="width: 199.833px; margin-right: 30px;"><div class="item">
-                                <div class="logoImage"><a href="/collections/skin-care"><img class="img-responsive" alt="velastore demo" src="https://cdn.shopify.com/s/files/1/2517/5168/files/logo5.png?v=1561202775"></a></div>
-                            </div></div><div class="owl-item active" style="width: 199.833px; margin-right: 30px;"><div class="item">
-                                <div class="logoImage"><a href="/collections/spa"><img class="img-responsive" alt="velastore demo" src="https://cdn.shopify.com/s/files/1/2517/5168/files/logo6.png?v=1561202792"></a></div>
-                            </div></div></div></div><div class="owl-nav disabled"><div class="owl-prev disabled">prev</div><div class="owl-next disabled">next</div></div><div class="owl-dots disabled"></div></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</div><!-- END content_for_index -->
-		
-        </main>
-        <div id="shopify-section-vela-footer" class="shopify-section"><footer id="velaFooter">
-    <div class="footerCenter">
+    <a class="menulogolink" data-logo="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/logo-1.png"></a>
+    <header class="beautypress-header-section navbar-fixed menu-skew beautypress-version-1 xs-header-1 beautypress-extra-css bg-color-purple fixed swingInX off-canvas">
         <div class="container">
-            <div class="footerCenterInner">
-                <div class="rowFlex rowFlexMargin">
-                    <div class="col-xs-12 col-sm-6 col-md-3 velaBlock"><div class="vela-contactinfo velaBlock">
-                                <div class="vela-content">
-                                    <div class="contacinfo-logo clearfix">
-                                        <div class="velaFooterLogo" itemscope="" itemtype="http://schema.org/Organization">
-                                            <a href="/" itemprop="url"><img class="img-responsive" style="max-width: 150px;" alt="velastore demo" src="beauty_logo.png"></a>
+            <div class="beautypress-logo-wraper">
+                <a href="https://wp.xpeedstudio.com/beautypress/" class="beautypress-logo beautypress-version-2  beautypress-version-4"> <img class="xs_desktop_logo" src="beauty_logo.png" alt="Beautypress"> <img class="xs_mobile_logo" src="beauty_logo.png" alt="Beautypress"> </a>
+            </div>
+        </div>
+        <div class="beautypress-header-top">
+            <div class="container">
+                <ul class="beautypress-simple-iocn-list beautypress-version-1">
+                    <li class="header-phone"><i class="xsicon icon-phone3"></i>+00 00 11 22 33</li>
+                    <li class="header-email"><i class="xsicon icon-envelope5"></i>info@xpeedstudio.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="beautypress-main-nav">
+            <div class="beautypress-main-header-mega">
+                <div class="container">
+                    <nav class="beautypress-nav beautypress-mega-menu xs_nav-landscape">
+                        <nav id="wp-megamenu-primary" class="wp-megamenu-wrap">
+                            <div class="wpmm-fullwidth-wrap"></div>
+                            <div class="wpmm-nav-wrap wpmm-main-wrap-primary"><a href="javascript:;" class="wpmm_mobile_menu_btn"><i class="fa fa-bars"></i> </a>
+                                <ul id="menu-main-menu" class="wp-megamenu">
+                                    <li id="wp-megamenu-item-288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-237 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children wp-megamenu-item-288  wpmm_dropdown_menu  wpmm-fadeindown wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/">Home <b class="fa fa-angle-down"></b> </a>
+                                        <ul class="wp-megamenu-sub-menu">
+                                            <li id="wp-megamenu-item-299" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-237 current_page_item wp-megamenu-item-299 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/">Home Version 1</a></li>
+                                            <li id="wp-megamenu-item-305" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-305 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/home-v2/">Home Version 2</a></li>
+                                            <li id="wp-megamenu-item-304" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-304 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/home-v3/">Home Version 3</a></li>
+                                            <li id="wp-megamenu-item-303" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-303 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/home-v4/">Home Version 4</a></li>
+                                            <li id="wp-megamenu-item-302" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-302 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/home-v5/">Home Version 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="wp-megamenu-item-286" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children wp-megamenu-item-286  wpmm_dropdown_menu  wpmm-fadeindown wpmm-submenu-right"><a href="#">About <b class="fa fa-angle-down"></b> </a>
+                                        <ul class="wp-megamenu-sub-menu">
+                                            <li id="wp-megamenu-item-295" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-295 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/about-version-1/">About Version 1</a></li>
+                                            <li id="wp-megamenu-item-309" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-309 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/about-v2/">About Version 2</a></li>
+                                            <li id="wp-megamenu-item-308" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-308 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/about-v3/">About Version 3</a></li>
+                                            <li id="wp-megamenu-item-307" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-307 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/about-v4/">About Version 4</a></li>
+                                            <li id="wp-megamenu-item-306" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-306 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/about-v5/">About Version 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="wp-megamenu-item-277" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children wp-megamenu-item-277  wpmm_dropdown_menu  wpmm-fadeindown wpmm-submenu-right"><a href="#">Services <b class="fa fa-angle-down"></b> </a>
+                                        <ul class="wp-megamenu-sub-menu">
+                                            <li id="wp-megamenu-item-283" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-283 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/service-v1/">Service Version 1</a></li>
+                                            <li id="wp-megamenu-item-282" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-282 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/service-version-2/">Service Version 2</a></li>
+                                            <li id="wp-megamenu-item-281" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-281 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/service-v3/">Service Version 3</a></li>
+                                            <li id="wp-megamenu-item-278" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-278 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/service-version-4/">Service Version 4</a></li>
+                                            <li id="wp-megamenu-item-279" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-279 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/service-v5/">Service Version 5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="wp-megamenu-item-287" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children wp-megamenu-item-287  wpmm_dropdown_menu  wpmm-fadeindown wpmm-submenu-right"><a href="#">Portfolio <b class="fa fa-angle-down"></b> </a>
+                                        <ul class="wp-megamenu-sub-menu">
+                                            <li id="wp-megamenu-item-300" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children wp-megamenu-item-300 wpmm-submenu-right"><a href="#">portfolio version 1</a>
+                                                <ul class="wp-megamenu-sub-menu">
+                                                    <li id="wp-megamenu-item-301" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-301 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/portfolio-filtering/">portfolio filtering</a></li>
+                                                    <li id="wp-megamenu-item-328" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-328 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/portfolio-3d-filtering/">portfolio 3d filtering</a></li>
+                                                    <li id="wp-megamenu-item-327" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-327 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/portfolio-without-filtering/">portfolio without filtering</a></li>
+                                                    <li id="wp-megamenu-item-326" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-326 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/portfolio-3d-without-filtering/">portfolio 3d without filtering</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="wp-megamenu-item-276" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children wp-megamenu-item-276  wpmm_dropdown_menu  wpmm-fadeindown wpmm-submenu-right"><a href="#">Blog <b class="fa fa-angle-down"></b> </a>
+                                        <ul class="wp-megamenu-sub-menu">
+                                            <li id="wp-megamenu-item-289" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-289 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/blog/">Blog</a></li>
+                                            <li id="wp-megamenu-item-280" class="menu-item menu-item-type-post_type menu-item-object-post wp-megamenu-item-280 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/blog/2017/11/12/hello-world-3/">Blog Post</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="wp-megamenu-item-285" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children wp-megamenu-item-285  wpmm_dropdown_menu  wpmm-fadeindown wpmm-submenu-right"><a href="#">Contact <b class="fa fa-angle-down"></b> </a>
+                                        <ul class="wp-megamenu-sub-menu">
+                                            <li id="wp-megamenu-item-293" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-293 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/contact-version-1/">Contact Version 1</a></li>
+                                            <li id="wp-megamenu-item-292" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-292 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/contact-v2/">Contact Version 2</a></li>
+                                            <li id="wp-megamenu-item-291" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-291 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/contact-version-v3/">Contact Version 3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li id="wp-megamenu-item-284" class="beautypress_mega_bg menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children wp-megamenu-item-284  wpmm_mega_menu  wpmm-fadeindown wpmm-strees-default wpmm-submenu-right"><a href="#">Element <b class="fa fa-angle-down"></b> </a>
+                                        <ul class="wp-megamenu-sub-menu">
+                                            <li id="wp-megamenu-item-5625456239281532" class="wpmm-row wp-megamenu-item-5625456239281532 wpmm-submenu-right">
+                                                <ul class="wp-megamenu-sub-menu">
+                                                    <li id="wp-megamenu-item-5625457787518824" class="wpmm-col wpmm-col-3 wp-megamenu-item-5625457787518824 wpmm-submenu-right">
+                                                        <ul class="wp-megamenu-sub-menu">
+                                                            <li id="wp-megamenu-item-298" class="menu-item wpmm-type-widget menu-widget-class wpmm-type-item wp-megamenu-item-298 wpmm-submenu-right"><a href="#">Other</a>
+                                                                <ul class="wp-megamenu-sub-menu">
+                                                                    <li id="wp-megamenu-item-318" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-318 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/appointments/">Appointments</a></li>
+                                                                    <li id="wp-megamenu-item-317" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-317 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/appointment-style/">Appointment Style</a></li>
+                                                                    <li id="wp-megamenu-item-316" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-316 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/call-to-action-3/">Call To Action</a></li>
+                                                                    <li id="wp-megamenu-item-315" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-315 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/team/">Team</a></li>
+                                                                    <li id="wp-megamenu-item-321" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-321 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/team-style/">Team Style</a></li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="wp-megamenu-item-5625457944265900" class="wpmm-col wpmm-col-3 wp-megamenu-item-5625457944265900 wpmm-submenu-right">
+                                                        <ul class="wp-megamenu-sub-menu">
+                                                            <li id="wp-megamenu-item-297" class="menu-item wpmm-type-widget menu-widget-class wpmm-type-item wp-megamenu-item-297 wpmm-submenu-right"><a href="#">Service</a>
+                                                                <ul class="wp-megamenu-sub-menu">
+                                                                    <li id="wp-megamenu-item-312" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-312 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/fun-fact/">Fun Fact</a></li>
+                                                                    <li id="wp-megamenu-item-311" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-311 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/sponsors-clients/">Sponsors &amp; Clients</a></li>
+                                                                    <li id="wp-megamenu-item-325" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-325 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/service-v1/">Service Version 1</a></li>
+                                                                    <li id="wp-megamenu-item-324" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-324 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/service-version-2/">Service Version 2</a></li>
+                                                                    <li id="wp-megamenu-item-323" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-323 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/service-v3/">Service Version 3</a></li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="wp-megamenu-item-5625458058021040" class="wpmm-col wpmm-col-3 wp-megamenu-item-5625458058021040 wpmm-submenu-right">
+                                                        <ul class="wp-megamenu-sub-menu">
+                                                            <li id="wp-megamenu-item-296" class="menu-item wpmm-type-widget menu-widget-class wpmm-type-item wp-megamenu-item-296 wpmm-submenu-right"><a href="#">Other</a>
+                                                                <ul class="wp-megamenu-sub-menu">
+                                                                    <li id="wp-megamenu-item-313" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-313 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/price-table/">Pricing Table</a></li>
+                                                                    <li id="wp-megamenu-item-314" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-314 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/price-table-style/">Pricing Table Style</a></li>
+                                                                    <li id="wp-megamenu-item-322" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-322 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/what-we-do/">What We Do</a></li>
+                                                                    <li id="wp-megamenu-item-319" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-319 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/tab/">Tab</a></li>
+                                                                    <li id="wp-megamenu-item-320" class="menu-item menu-item-type-post_type menu-item-object-page wp-megamenu-item-320 wpmm-submenu-right"><a href="https://wp.xpeedstudio.com/beautypress/faq/">Faq Accordion Styles</a></li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="wp-megamenu-item-5625457430293469" class="wpmm-col wpmm-col-3 wp-megamenu-item-5625457430293469 wpmm-submenu-right">
+                                                        <ul class="wp-megamenu-sub-menu">
+                                                            <li class="menu-item wpmm-type-widget menu-widget-class wpmm-type-widget wp-megamenu-item-285 wpmm-submenu-right">
+                                                                <div class="textwidget">
+                                                                    <p>One morning, when Gregor Samsa woke from troubled dreams, he found.</p>
+                                                                </div>
+                                                            </li>
+                                                            <li id="wp-megamenu-item-294" class="menu-item wpmm-type-widget menu-widget-class wpmm-type-item wp-megamenu-item-294 wpmm-submenu-right"><a href="#">Image</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <div class="nav-overlay-panel"></div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="beautypress-pagefeed-section section-padding-no-banner">
+        <div class="elementor elementor-237">
+            <div class="elementor-inner">
+                <div class="elementor-section-wrap">
+                    <section data-id="b7773ba" class="elementor-element elementor-element-b7773ba elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section">
+                        <div class="elementor-container elementor-column-gap-no">
+                            <div class="elementor-row">
+                                <div data-id="0e04502" class="elementor-element elementor-element-0e04502 elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div data-id="4ba6bb5" class="elementor-element elementor-element-4ba6bb5 elementor-widget elementor-widget-xs-slider" data-element_type="xs-slider.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="beautypress-welcome-slider-wraper">
+                                                        <div class="beautypress-welcome-slider owl-carousel welcome-height-calc-minus">
+                                                                    
+                                                                    
+
+                                                                    
+                                                                  
+                                                                     <div class="owl-item" style="width: 1349px;">
+                                                                        <div class="beautypress-welcome-slider-item content- beautypress-bg" style="background-image: url(https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/slider-bg-2.png);">
+                                                                            <div class="container">
+                                                                                <div class="beautypress-welcome-content-group">
+                                                                                    <div class="beautypress-welcome-avatar"></div>
+                                                                                    <div class="beautypress-welcome-container" style="height: 600px;">
+                                                                                        <div class="beautypress-welcome-wraper" style="margin-top: 117px;">
+                                                                                            <h2 class="color-pink">37 Years Of</h2>
+                                                                                            <h3 class="color-purple">BeautyPress</h3>
+                                                                                            <p class="color-black">Allow our team of beauty specialists to help you prepare for your wedding and enhance your special.</p>
+                                                                                            <div class="beautypress-btn-wraper"><a href="" target="_self" class="beautypress-btn xs-btn bg-color-pink round-btn box-shadow-btn">Learn More<span></span></a> <a href="" target="_self" class="beautypress-btn xs-btn bg-color-purple round-btn box-shadow-btn">Learn More <span></span></a></div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="beautypress-black-gradient-overlay"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="owl-item" style="width: 1349px;">
+                                                                        <div class="beautypress-welcome-slider-item content-right beautypress-bg" style="background-image: url(https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/slider-bg-3.png);">
+                                                                            <div class="container">
+                                                                                <div class="beautypress-welcome-content-group">
+                                                                                    <div class="beautypress-welcome-avatar"></div>
+                                                                                    <div class="beautypress-welcome-container" style="height: 600px;">
+                                                                                        <div class="beautypress-welcome-wraper" style="margin-top: 117px;">
+                                                                                            <h2 class="color-pink">Beautiful Face</h2>
+                                                                                            <h3 class="color-purple">Healty You</h3>
+                                                                                            <p class="color-black">Allow our team of beauty specialists to help you prepare for your wedding and enhance your special.</p>
+                                                                                            <div class="beautypress-btn-wraper"><a href="" target="_self" class="beautypress-btn xs-btn bg-color-pink round-btn box-shadow-btn">Learn More<span></span></a> <a href="" target="_self" class="beautypress-btn xs-btn bg-color-purple round-btn box-shadow-btn">Learn More <span></span></a></div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="beautypress-black-gradient-overlay"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="owl-item active" style="width: 1349px;">
+                                                                        <div class="beautypress-welcome-slider-item content- beautypress-bg" style="background-image: url(https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/slider-bg-1.png);">
+                                                                            <div class="container">
+                                                                                <div class="beautypress-welcome-content-group">
+                                                                                    <div class="beautypress-welcome-avatar"></div>
+                                                                                    <div class="beautypress-welcome-container" style="height: 600px;">
+                                                                                        <div class="beautypress-welcome-wraper" style="margin-top: 117px;">
+                                                                                            <h2 class="color-pink">Beautiful Face</h2>
+                                                                                            <h3 class="color-purple">Healthy You</h3>
+                                                                                            <p class="color-black">Allow our team of beauty specialists to help you prepare for your wedding and enhance your special.</p>
+                                                                                            <div class="beautypress-btn-wraper"><a href="" target="_self" class="beautypress-btn xs-btn bg-color-pink round-btn box-shadow-btn">Learn More<span></span></a> <a href="" target="_self" class="beautypress-btn xs-btn bg-color-purple round-btn box-shadow-btn">Phurchase <span></span></a></div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="beautypress-black-gradient-overlay"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                            <div class="owl-nav">
+                                                                <div class="owl-prev" style="top: calc(50% + 58.5px);"><i class="xsicon icon-left-arrow"></i></div>
+                                                                <div class="owl-next" style="top: calc(50% + 58.5px);"><i class="xsicon icon-right-arrow"></i></div>
+                                                            </div>
+                                                            <div class="owl-dots disabled"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    
-                                        <div class="contacinfo-desc contactinfo-item clearfix">
-                                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut.
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section data-id="28a7ebf" class="elementor-element elementor-element-28a7ebf elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section">
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                                <div data-id="c80db5b" class="elementor-element elementor-element-c80db5b elementor-column elementor-col-50 elementor-top-column" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div data-id="f14694c" class="elementor-element elementor-element-f14694c elementor-widget elementor-widget-xs-heading" data-element_type="xs-heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="beautypress-new-about-text-gruop">
+                                                        <div class="beautypress-heading-text-content">
+                                                            <div class="beautypress-sub-heading beautypress-watermark-title">
+                                                                <h2 data-title="20+">20+ Years  of experience</h2></div> <span class="beautypress-gradient-separetor"></span>
+                                                            <p>Passion, knowledge and the gift of beauty salon &amp; spa continues to give the best services in the world.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div data-id="6466935" class="elementor-element elementor-element-6466935 text-left elementor-widget elementor-widget-xs-button" data-element_type="xs-button.default">
+                                                <div class="elementor-widget-container"> <a href="#" target="_self" class="beautypress-btn xs-btn bg-color-purple round-btn box-shadow-btn">Appointment Now<span></span></a></div>
+                                            </div>
                                         </div>
-                                    
+                                    </div>
                                 </div>
-                            </div><div class="velaSocial">
-                                    <ul class="velaSocial list-unstyled list-inline"><li class="velaSocialItem facebook">
-                                                <a href="https://www.facebook.com/velatheme" target="_blank" title="Facebook">
-                                                    <i class="fa fa-facebook-official"></i>
-                                                </a>
-                                            </li><li class="velaSocialItem">
-                                                <a href="https://twitter.com/VelaTheme" target="_blank" title="Twitter">
-                                                    <i class="fa fa-twitter"></i>
-                                                </a>
-                                            </li><li class="velaSocialItem linkedin">
-                                                <a href="https://www.linkedin.com/in/theme-vela-343a5b123/detail/recent-activity/" target="_blank" title="Linkedin">
-                                                    <i class="fa fa-linkedin"></i>
-                                                </a>
-                                            </li><li class="velaSocialItem instagram">
-                                                <a href="https://www.instagram.com/velatheme/" target="_blank" title="instagram">
-                                                    <i class="fa fa-instagram"></i>
-                                                </a>
-                                            </li></ul>        
-                            </div></div><div class="col-xs-12 col-sm-6 col-md-3">
-                            <div class="velaFooterMenu vela-locateUs velaBlock">
-                                
-                                    <h3 class="velaFooterTitle">Locate Us</h3>
-                                
-                                <div class="velaContent" style="">
-                                    
-                                        <div>
-                                            <p>No 40 Baria Sreet 133/2</p>
-<p>+ (156) 1800-366-6666</p>
-<p>Eric-82@example.com</p>
-<p><a href="velatheme.com" title="velatheme">velatheme.com</a></p>
+                                <div data-id="f6da8f2" class="elementor-element elementor-element-f6da8f2 elementor-column elementor-col-50 elementor-top-column" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-background-overlay"></div>
+                                        <div class="elementor-widget-wrap">
+                                            <section data-id="122133c" class="elementor-element elementor-element-122133c elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+                                                <div class="elementor-background-overlay"></div>
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div data-id="443274b" class="elementor-element elementor-element-443274b elementor-column elementor-col-50 elementor-inner-column" data-element_type="column">
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div data-id="6c05b30" class="elementor-element elementor-element-6c05b30 elementor-mobile-align-center elementor-widget elementor-widget-xs-single-image" data-element_type="xs-single-image.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="beautypress-3d beautypress-single-image">
+                                                                                <div class="beautypress-3d-project-card"> <img width="271" height="305" src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-1.png" class="attachment-full size-full" alt="" srcset="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-1.png 271w, https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-1-267x300.png 267w" sizes="(max-width: 271px) 100vw, 271px"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div data-id="ea98e3f" class="elementor-element elementor-element-ea98e3f elementor-mobile-align-center elementor-widget elementor-widget-xs-single-image" data-element_type="xs-single-image.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="beautypress-3d beautypress-single-image">
+                                                                                <div class="beautypress-3d-project-card"> <img width="271" height="305" src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-3.png" class="attachment-full size-full" alt="" srcset="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-3.png 271w, https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-3-267x300.png 267w" sizes="(max-width: 271px) 100vw, 271px"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div data-id="cbcf842" class="elementor-element elementor-element-cbcf842 elementor-column elementor-col-50 elementor-inner-column" data-element_type="column">
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div data-id="f5a9775" class="elementor-element elementor-element-f5a9775 elementor-mobile-align-center elementor-widget elementor-widget-xs-single-image" data-element_type="xs-single-image.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="beautypress-3d beautypress-single-image">
+                                                                                <div class="beautypress-3d-project-card"> <img width="271" height="345" src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-2.png" class="attachment-full size-full" alt="" srcset="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-2.png 271w, https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-2-236x300.png 236w" sizes="(max-width: 271px) 100vw, 271px"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div data-id="7dd837e" class="elementor-element elementor-element-7dd837e elementor-mobile-align-center elementor-widget elementor-widget-xs-single-image" data-element_type="xs-single-image.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="beautypress-3d beautypress-single-image">
+                                                                                <div class="beautypress-3d-project-card"> <img width="271" height="270" src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-4.png" class="attachment-full size-full" alt="" srcset="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-4.png 271w, https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-4-150x150.png 150w, https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-4-100x100.png 100w" sizes="(max-width: 271px) 100vw, 271px"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
                                         </div>
-                                      
+                                    </div>
                                 </div>
                             </div>
-                        </div><div class="col-xs-12 col-sm-6 col-md-3"><div class="velaFooterMenu velaBlock"><h4 class="velaFooterTitle">Information</h4>
-	
-	<div class="velaContent" style="">
-		<ul class="velaFooterLinks list-unstyled">
-			
-				<li class="">
-					<a href="/customers/login" title="">My Account</a>
-				</li>
-			
-				<li class="">
-					<a href="/checkout" title="">Checkout</a>
-				</li>
-			
-				<li class="active">
-					<a href="/" title="">Order Tracking</a>
-				</li>
-			
-				<li class="">
-					<a href="/pages/faqs" title="">Help &amp; Suppport</a>
-				</li>
-			
-		</ul>
-	</div>
+                        </div>
+                    </section>
+                    <section data-id="4b55072" class="elementor-element elementor-element-4b55072 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                                <div data-id="2d40da9" class="elementor-element elementor-element-2d40da9 elementor-column elementor-col-50 elementor-top-column" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div data-id="3100c4d" class="elementor-element elementor-element-3100c4d elementor-widget elementor-widget-xs-image-comparison" data-element_type="xs-image-comparison.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="twentytwenty-wrapper twentytwenty-horizontal">
+                                                        <div class="twentytwenty-wrapper twentytwenty-horizontal">
+                                                            <div class="twentytwenty-container beautypress-before-after" style="height: 401px;"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/before-after-1.jpg" class="xs-lazy-img twentytwenty-before" title="before-after-1" alt="before-after-1" style="clip: rect(0px, 275px, 401px, 0px);"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/before-after-2.jpg" class="xs-lazy-img twentytwenty-after" title="before-after-2" alt="before-after-2" style="clip: rect(0px, 550px, 401px, 275px);">
+                                                                <div class="twentytwenty-handle" style="left: 275px;"><span class="twentytwenty-left-arrow"></span><span class="twentytwenty-right-arrow"></span><span class="twentytwenty-left-arrow"></span><span class="twentytwenty-right-arrow"></span></div>
+                                                                <div class="twentytwenty-handle" style="left: 275px;"><span class="twentytwenty-left-arrow"></span><span class="twentytwenty-right-arrow"></span></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-id="053de27" class="elementor-element elementor-element-053de27 elementor-column elementor-col-50 elementor-top-column" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <section data-id="215d5ac" class="elementor-element elementor-element-215d5ac elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div data-id="5c0f4aa" class="elementor-element elementor-element-5c0f4aa elementor-column elementor-col-100 elementor-inner-column" data-element_type="column">
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div data-id="45ebd86" class="elementor-element elementor-element-45ebd86 elementor-widget elementor-widget-xs-heading" data-element_type="xs-heading.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="beautypress-big-sub-heading">
+                                                                                <h2 class="">Secret of</h2></div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div data-id="1b1c725" class="elementor-element elementor-element-1b1c725 elementor-widget elementor-widget-xs-heading" data-element_type="xs-heading.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="beautypress-heading-text-content">
+                                                                                <div class="beautypress-sub-heading beautypress-watermark-title ">
+                                                                                    <h2 data-title="">BeautyPress</h2></div>
+                                                                                <p>After owning two successful salon locations they decided to move their passion to the small town of Gainesville</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                            <section data-id="7ecc89a" class="elementor-element elementor-element-7ecc89a elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div data-id="62237e8" class="elementor-element elementor-element-62237e8 elementor-column elementor-col-50 elementor-inner-column" data-element_type="column">
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div data-id="80139b2" class="elementor-element elementor-element-80139b2 xs-heading-text-left xs-heading-text--tabletcenter xs-heading-text--mobileleft elementor-widget elementor-widget-xs-heading" data-element_type="xs-heading.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="beautypress-section-headinig beautypress-watermark-title"> <img width="57" height="70" src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/lipstick_color.png" class="attachment-thumbnail size-thumbnail" alt="">
+                                                                                <h2 data-title="Add Title" class="color-black">Reflexology</h2>
+                                                                                <p>Stimulates the movement of
+                                                                                    <br> energy by applying pressure</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div data-id="96b604a" class="elementor-element elementor-element-96b604a elementor-column elementor-col-50 elementor-inner-column" data-element_type="column">
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div data-id="b3c2236" class="elementor-element elementor-element-b3c2236 xs-heading-text--tabletleft xs-heading-text--mobileleft elementor-widget elementor-widget-xs-heading" data-element_type="xs-heading.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="beautypress-section-headinig beautypress-watermark-title"> <img width="65" height="70" src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/nail_color-1.png" class="attachment-thumbnail size-thumbnail" alt="">
+                                                                                <h2 data-title="Add Title" class="color-black">Nail Therapy</h2>
+                                                                                <p>Wraps are intended to tone and tighten skin while helping.</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- <section data-id="1fc924d" class="elementor-element elementor-element-1fc924d elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div data-id="07d742d" class="elementor-element elementor-element-07d742d elementor-column elementor-col-50 elementor-inner-column" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="3eee0a1" class="elementor-element elementor-element-3eee0a1 elementor-position-left elementor-vertical-align-middle elementor-view-default elementor-widget elementor-widget-icon-box" data-element_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+					<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-">
+				<i class="xsicon icon-cosmetics-1" aria-hidden="true"></i>
+				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span>Professional Make Up Artists</span>
+				</h3>
+				<p class="elementor-icon-box-description">When an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			</div>
+		</div>
+				</div>
+				</div>
+				<div data-id="3c93148" class="elementor-element elementor-element-3c93148 elementor-position-left elementor-vertical-align-middle elementor-view-default elementor-widget elementor-widget-icon-box" data-element_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+					<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-">
+				<i class="xsicon icon-essential-oil-2" aria-hidden="true"></i>
+				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span>Professional Make Up Artists</span>
+				</h3>
+				<p class="elementor-icon-box-description">When an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			</div>
+		</div>
+				</div>
+				</div>
+				<div data-id="de21e6c" class="elementor-element elementor-element-de21e6c elementor-position-left elementor-vertical-align-middle elementor-view-default elementor-widget elementor-widget-icon-box" data-element_type="icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-box-wrapper">
+					<div class="elementor-icon-box-icon">
+				<span class="elementor-icon elementor-animation-">
+				<i class="xsicon icon-soap" aria-hidden="true"></i>
+				</span>
+			</div>
+						<div class="elementor-icon-box-content">
+				<h3 class="elementor-icon-box-title">
+					<span>Professional Make Up Artists</span>
+				</h3>
+				<p class="elementor-icon-box-description">When an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			</div>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+				<div data-id="4031773" class="elementor-element elementor-element-4031773 elementor-column elementor-col-50 elementor-inner-column" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="a671f6c" class="elementor-element elementor-element-a671f6c elementor-widget elementor-widget-xs-slider" data-element_type="xs-slider.default">
+				<div class="elementor-widget-container">
+			<div class="beautypress-feature-slider-section">
+	<div class="beautypress-image-slider owl-carousel">
+					
+					
+					
+					
+			<div class="owl-item" style="width: 540px;"><div class="beautypress-single-slider-img">
+				<img src="https://wp.xpeedstudio.com/beautypress/home-v2/wp-content/uploads/sites/2/2017/12/feature-slider-2.png" alt="">
+			</div></div><div class="owl-item" style="width: 540px;"><div class="beautypress-single-slider-img">
+				<img src="https://wp.xpeedstudio.com/beautypress/home-v2/wp-content/uploads/sites/2/2017/12/features-1.jpg" alt="">
+			</div></div><div class="owl-item active" style="width: 540px;"><div class="beautypress-single-slider-img">
+				<img src="https://wp.xpeedstudio.com/beautypress/home-v2/wp-content/uploads/sites/2/2017/12/feature-slider-1.png" alt="">
+			</div></div><div class="owl-item" style="width: 540px;"><div class="beautypress-single-slider-img">
+				<img src="https://wp.xpeedstudio.com/beautypress/home-v2/wp-content/uploads/sites/2/2017/12/feature-slider-4.png" alt="">
+			</div></div><div class="owl-item" style="width: 540px;"><div class="beautypress-single-slider-img">
+				<img src="https://wp.xpeedstudio.com/beautypress/home-v2/wp-content/uploads/sites/2/2017/12/feature-slider-2.png" alt="">
+			</div></div><div class="owl-item" style="width: 540px;"><div class="beautypress-single-slider-img">
+				<img src="https://wp.xpeedstudio.com/beautypress/home-v2/wp-content/uploads/sites/2/2017/12/features-1.jpg" alt="">
+			</div></div><div class="owl-item" style="width: 540px;"><div class="beautypress-single-slider-img">
+				<img src="https://wp.xpeedstudio.com/beautypress/home-v2/wp-content/uploads/sites/2/2017/12/feature-slider-1.png" alt="">
+			</div></div><div class="owl-item" style="width: 540px;"><div class="beautypress-single-slider-img">
+				<img src="https://wp.xpeedstudio.com/beautypress/home-v2/wp-content/uploads/sites/2/2017/12/feature-slider-4.png" alt="">
+			</div></div><div class="owl-nav disabled"><div class="owl-prev">prev</div><div class="owl-next">next</div></div><div class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div></div></div>
 </div>
-                        </div><div class="col-xs-12 col-sm-6 col-md-3"><div class="velaNewsletterFooter velaFooterMenu">
-    <div class="velaNewsletterInner clearfix"><h4 class="velaFooterTitle">Newsletter</h4><div class="velaContent" style=""><div class="newsletterDescription">Subscribe to our newsletter</div><form action="#" method="post" name="mc-embedded-subscribe-form" target="_blank" class="formNewsletter clearfix">
-                    <div class="input-group">
-                        <input type="email" value="" placeholder="Your email address..." name="EMAIL" class="form-control" aria-label="Your email address...">
-                        <span class="input-group-btn"> 
-                            <button class="btn btnNewsletter" type="submit">
-                                <i class="fa fa-angle-right"></i>
-                                
-                            </button>
-                        </span>
-                    </div>
-                </form></div>
-    </div>
-</div><div class="velaCopyRight">
-                                @ 2019 Beauty
-                            </div></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-</div>
-    </div>
-    <script id="CartTemplate" type="text/template">
-    
-        <form action="/cart" method="post" novalidate class="cart ajaxcart">
-            <div class="ajaxCartInner">
-                {{#items}}
-                <div class="ajaxCartProduct">
-                    <div class="drawerProduct ajaxCartRow" data-line="{{line}}">
-                        <div class="drawerProductImage">
-                            <a href="{{url}}"><img class="img-responsive" src="{{img}}" alt="" /></a>
-                        </div>
-                        <div class="drawerProductContent">
-                            <div class="drawerProductTitle">
-                                <a href="{{url}}">{{name}}</a>
-                                {{#if variation}}
-                                    <span>{{variation}}</span>
-                                {{/if}}
-                                {{#properties}}
-                                    {{#each this}}
-                                        {{#if this}}
-                                            <span>{{@key}}: {{this}}</span>
-                                        {{/if}}
-                                    {{/each}}
-                                {{/properties}}
-
-                                
-
-                            </div>
-                            <div class="drawerProductPrice">
-                                <div class="priceProduct">
-                                    {{{price}}}
+		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section> -->
+                    <section data-id="52abd82" class="elementor-element elementor-element-52abd82 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                                <div data-id="eeb8c60" class="elementor-element elementor-element-eeb8c60 elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div data-id="9be3e07" class="elementor-element elementor-element-9be3e07 xs-heading-text-center elementor-widget elementor-widget-xs-heading" data-element_type="xs-heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="beautypress-big-sub-heading">
+                                                        <h2 class="">We are awesome</h2>
+                                                        <h3>Get Appoinment</h3></div>
+                                                </div>
+                                            </div>
+                                            <section data-id="7ec0633" class="elementor-element elementor-element-7ec0633 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div data-id="8c2a900" class="elementor-element elementor-element-8c2a900 elementor-column elementor-col-50 elementor-inner-column" data-element_type="column">
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div data-id="82f4345" class="elementor-element elementor-element-82f4345 elementor-widget elementor-widget-xs-schedule" data-element_type="xs-schedule.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="beautypress-booking-text-wraper">
+                                                                                <div class="beautypress-booking-content-text beautypress-border beautypress-version-3">
+                                                                                    <div class="beautypress-booking-text">
+                                                                                        <h2>Time Shedule</h2>
+                                                                                        <h3>Working Hours</h3>
+                                                                                        <div class="beautypress-icon-bg-text">
+                                                                                            <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out .</p>
+                                                                                        </div>
+                                                                                        <ul>
+                                                                                            <li class="">Mon - Wed : 8:00am - 06:00pm</li>
+                                                                                            <li class="">Thu - Sat : 10:00am - 10:00pm</li>
+                                                                                            <li class="xs-weekend">Sunday : Close</li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div data-id="fe56a3d" class="elementor-element elementor-element-fe56a3d elementor-column elementor-col-50 elementor-inner-column" data-element_type="column">
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div data-id="3af0f76" class="elementor-element elementor-element-3af0f76 elementor-widget elementor-widget-shortcode" data-element_type="shortcode.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="elementor-shortcode">
+                                                                                <div class="booked-calendar-shortcode-wrap">
+                                                                                    <div id="data-ajax-url">https://wp.xpeedstudio.com/beautypress/</div>
+                                                                                    <div class="booked-calendar-wrap large" data-default="2019-08-01" style="height: 475px;">
+                                                                                        <table class="booked-calendar" data-calendar-date="2019-08-01">
+                                                                                            <thead>
+                                                                                                <tr>
+                                                                                                    <th colspan="7"> <span class="calendarSavingState"> <i class="booked-icon booked-icon-spinner-clock booked-icon-spin"></i> </span> <span class="monthName"> August 2019 </span> <a href="#" data-goto="2019-09-01" class="page-right"><i class="booked-icon booked-icon-arrow-right"></i></a></th>
+                                                                                                </tr>
+                                                                                                <tr class="days">
+                                                                                                    <th>Mon</th>
+                                                                                                    <th>Tue</th>
+                                                                                                    <th>Wed</th>
+                                                                                                    <th>Thu</th>
+                                                                                                    <th>Fri</th>
+                                                                                                    <th>Sat</th>
+                                                                                                    <th>Sun</th>
+                                                                                                </tr>
+                                                                                            </thead>
+                                                                                            <tbody>
+                                                                                                <tr class="week">
+                                                                                                    <td data-date="2019-07-29" class="prev-month prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">29</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-07-30" class="prev-month prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">30</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-07-31" class="prev-month prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">31</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-1" class="prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">1</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-2" class="prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">2</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-3" class="prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">3</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-4" class="prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">4</span></span>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr class="week">
+                                                                                                    <td data-date="2019-08-5" class="prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">5</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-6" class="prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">6</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-7" class="prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">7</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-8" class="prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">8</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-9" class="prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">9</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-10" class="prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">10</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-11" class="prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">11</span></span>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr class="week">
+                                                                                                    <td data-date="2019-08-12" class="prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">12</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-13" class="prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">13</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-14" class="prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">14</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-15" class="prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">15</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-16" class="prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">16</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-17" class="prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">17</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-18" class="prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">18</span></span>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr class="week">
+                                                                                                    <td data-date="2019-08-19" class="prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">19</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-20" class="prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">20</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-21" class="today prev-date" style="height: 75px;"><span class="date" style="line-height: 75px;"><span class="number" style="">21</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-22" class="" style="height: 75px;"><span class="date tooltipster tooltipstered" style="line-height: 75px;"><span class="number" style="">22</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-23" class="" style="height: 75px;"><span class="date tooltipster tooltipstered" style="line-height: 75px;"><span class="number" style="">23</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-24" class="" style="height: 75px;"><span class="date tooltipster tooltipstered" style="line-height: 75px;"><span class="number" style="">24</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-25" class="" style="height: 75px;"><span class="date tooltipster tooltipstered" style="line-height: 75px;"><span class="number" style="">25</span></span>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr class="week">
+                                                                                                    <td data-date="2019-08-26" class="" style="height: 75px;"><span class="date tooltipster tooltipstered" style="line-height: 75px;"><span class="number" style="">26</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-27" class="" style="height: 75px;"><span class="date tooltipster tooltipstered" style="line-height: 75px;"><span class="number" style="">27</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-28" class="" style="height: 75px;"><span class="date tooltipster tooltipstered" style="line-height: 75px;"><span class="number" style="">28</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-29" class="" style="height: 75px;"><span class="date tooltipster tooltipstered" style="line-height: 75px;"><span class="number" style="">29</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-30" class="" style="height: 75px;"><span class="date tooltipster tooltipstered" style="line-height: 75px;"><span class="number" style="">30</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-08-31" class="" style="height: 75px;"><span class="date tooltipster tooltipstered" style="line-height: 75px;"><span class="number" style="">31</span></span>
+                                                                                                    </td>
+                                                                                                    <td data-date="2019-09-1" class="next-month" style="height: 75px;"><span class="date tooltipster tooltipstered" style="line-height: 75px;"><span class="number" style="">1</span></span>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="drawerProductQty">
-                                <div class="velaQty">
-                                    <button type="button" class="qtyAdjust velaQtyButton velaQtyMinus" data-id="{{id}}" data-qty="{{itemMinus}}" data-line="{{line}}">
-                                        <span class="txtFallback">&minus;</span>
-                                    </button>
-                                    <input type="text" name="updates[]" class="qtyNum velaQtyText" value="{{itemQty}}" min="0" data-id="{{id}}" data-line="{{line}}"  pattern="[0-9]*" />
-                                    <button type="button" class="qtyAdjust velaQtyButton velaQtyPlus" data-id="{{id}}" data-line="{{line}}" data-qty="{{itemAdd}}">
-                                        <span class="txtFallback">+</span>
-                                    </button>
+                        </div>
+                    </section>
+                    <section data-id="f8699f2" class="elementor-element elementor-element-f8699f2 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section">
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                                <div data-id="8179c9a" class="elementor-element elementor-element-8179c9a elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div data-id="bf45a65" class="elementor-element elementor-element-bf45a65 xs-heading-text-center elementor-widget elementor-widget-xs-heading" data-element_type="xs-heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="beautypress-big-sub-heading">
+                                                        <h2 class="">We are awesome</h2>
+                                                        <h3>Photo Gallery</h3></div>
+                                                </div>
+                                            </div>
+                                            <div data-id="aee2649" class="elementor-element elementor-element-aee2649 elementor-widget elementor-widget-xs-portfolio" data-element_type="xs-portfolio.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="beautypress-photo-gallery-wraper">
+                                                        <div class="beautypress-portfolio-nav beautypress-version portfolio-menu">
+                                                            <ul id="filters" class="option-set clearfix" data-option-key="filter">
+                                                                <li><a href="#" data-option-value="*" class="selected">All item</a></li>
+                                                                <li><a href="#" data-option-value=".makeup">Makeup</a></li>
+                                                                <li><a href="#" data-option-value=".massage">Massage</a></li>
+                                                                <li><a href="#" data-option-value=".hair">Hair</a></li>
+                                                                <li><a href="#" data-option-value=".facial">Facial</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="beautypress-photo-gallery-grid" style="position: relative; height: 1132.27px;">
+                                                            <div class="beautypress-photo-gallery-grid-item facial double_size" style="position: absolute; left: 0px; top: 0px;">
+                                                                <div class="beautypress-single-photo-gallery beautypress-3d">
+                                                                    <div class="beautypress-3d-project-card"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/gallery_new_7-1024x768.jpg" class="xs-lazy-" alt="Portfolio 9">
+                                                                        <div class="beautypress-photo-gallery-content">
+                                                                            <a href="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/gallery_new_7.jpg" class="beautypress-image-popup beautypress-iocn-btn full-round-btn bg-color-pink"> <i class="fa fa-eye"></i> </a>
+                                                                            <a href="https://wp.xpeedstudio.com/beautypress/blog/folio/portfolio-9/" class="beautypress-iocn-btn full-round-btn bg-color-purple"> <i class="fa fa-link"></i> </a>
+                                                                        </div>
+                                                                        <div class="beautypress-gallery-overlay"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="beautypress-photo-gallery-grid-item facial hair " style="position: absolute; left: 746px; top: 0px;">
+                                                                <div class="beautypress-single-photo-gallery beautypress-3d">
+                                                                    <div class="beautypress-3d-project-card"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/gallery_new_1-1024x768.jpg" class="xs-lazy-" alt="Laser treatment">
+                                                                        <div class="beautypress-photo-gallery-content">
+                                                                            <a href="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/gallery_new_1.jpg" class="beautypress-image-popup beautypress-iocn-btn full-round-btn bg-color-pink"> <i class="fa fa-eye"></i> </a>
+                                                                            <a href="https://wp.xpeedstudio.com/beautypress/blog/folio/laser-treatment/" class="beautypress-iocn-btn full-round-btn bg-color-purple"> <i class="fa fa-link"></i> </a>
+                                                                        </div>
+                                                                        <div class="beautypress-gallery-overlay"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="beautypress-photo-gallery-grid-item facial massage " style="position: absolute; left: 746px; top: 284px;">
+                                                                <div class="beautypress-single-photo-gallery beautypress-3d">
+                                                                    <div class="beautypress-3d-project-card"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/gallery_new_2-1024x768.jpg" class="xs-lazy-" alt="Portfolio 8">
+                                                                        <div class="beautypress-photo-gallery-content">
+                                                                            <a href="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/gallery_new_2.jpg" class="beautypress-image-popup beautypress-iocn-btn full-round-btn bg-color-pink"> <i class="fa fa-eye"></i> </a>
+                                                                            <a href="https://wp.xpeedstudio.com/beautypress/blog/folio/portfolio-8/" class="beautypress-iocn-btn full-round-btn bg-color-purple"> <i class="fa fa-link"></i> </a>
+                                                                        </div>
+                                                                        <div class="beautypress-gallery-overlay"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="beautypress-photo-gallery-grid-item facial hair makeup " style="position: absolute; left: 0px; top: 563px;">
+                                                                <div class="beautypress-single-photo-gallery beautypress-3d">
+                                                                    <div class="beautypress-3d-project-card"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/gallery_new_3-1024x768.jpg" class="xs-lazy-" alt="Portfolio 7">
+                                                                        <div class="beautypress-photo-gallery-content">
+                                                                            <a href="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/gallery_new_3.jpg" class="beautypress-image-popup beautypress-iocn-btn full-round-btn bg-color-pink"> <i class="fa fa-eye"></i> </a>
+                                                                            <a href="https://wp.xpeedstudio.com/beautypress/blog/folio/portfolio-7/" class="beautypress-iocn-btn full-round-btn bg-color-purple"> <i class="fa fa-link"></i> </a>
+                                                                        </div>
+                                                                        <div class="beautypress-gallery-overlay"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="beautypress-photo-gallery-grid-item hair makeup double_size" style="position: absolute; left: 373px; top: 568px;">
+                                                                <div class="beautypress-single-photo-gallery beautypress-3d">
+                                                                    <div class="beautypress-3d-project-card"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/gallery_new_4-1024x768.jpg" class="xs-lazy-" alt="Portfolio 6">
+                                                                        <div class="beautypress-photo-gallery-content">
+                                                                            <a href="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/gallery_new_4.jpg" class="beautypress-image-popup beautypress-iocn-btn full-round-btn bg-color-pink"> <i class="fa fa-eye"></i> </a>
+                                                                            <a href="https://wp.xpeedstudio.com/beautypress/blog/folio/portfolio-6/" class="beautypress-iocn-btn full-round-btn bg-color-purple"> <i class="fa fa-link"></i> </a>
+                                                                        </div>
+                                                                        <div class="beautypress-gallery-overlay"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="beautypress-photo-gallery-grid-item makeup massage " style="position: absolute; left: 0px; top: 847px;">
+                                                                <div class="beautypress-single-photo-gallery beautypress-3d">
+                                                                    <div class="beautypress-3d-project-card"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/gallery_new_5-1024x768.jpg" class="xs-lazy-" alt="Portfolio 5">
+                                                                        <div class="beautypress-photo-gallery-content">
+                                                                            <a href="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/gallery_new_5.jpg" class="beautypress-image-popup beautypress-iocn-btn full-round-btn bg-color-pink"> <i class="fa fa-eye"></i> </a>
+                                                                            <a href="https://wp.xpeedstudio.com/beautypress/blog/folio/portfolio-5/" class="beautypress-iocn-btn full-round-btn bg-color-purple"> <i class="fa fa-link"></i> </a>
+                                                                        </div>
+                                                                        <div class="beautypress-gallery-overlay"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="drawerProductDelete">
-                                <div class="cartRemoveBox">
-                                    <a href="#" class="cartRemove btnClose" onclick="return false;" data-line="{{ line }}">
-                                        <span>Remove</span>
-                                    </a>
+                        </div>
+                    </section>
+                    <section data-id="afb7c16" class="elementor-element elementor-element-afb7c16 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+                        <div class="elementor-background-overlay"></div>
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                                <div data-id="9e7d021" class="elementor-element elementor-element-9e7d021 elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div data-id="5c438a1" class="elementor-element elementor-element-5c438a1 xs-heading-text-center elementor-widget elementor-widget-xs-heading" data-element_type="xs-heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="beautypress-big-sub-heading">
+                                                        <h2 class="">We are awesome</h2>
+                                                        <h3>Pricing Plan</h3></div>
+                                                </div>
+                                            </div>
+                                            <section data-id="a387086" class="elementor-element elementor-element-a387086 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div data-id="7334230" class="elementor-element elementor-element-7334230 elementor-column elementor-col-33 elementor-inner-column" data-element_type="column">
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div data-id="331aee8" class="elementor-element elementor-element-331aee8 elementor-widget elementor-widget-xs-price" data-element_type="xs-price.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="beautypress-single-pricing-table">
+                                                                                <div class="beautypress-pricing-header beautypress-purple-overlay"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/pricing-1-350x259.jpg" alt="Hair Cut">
+                                                                                    <div class="beautypress-pricing-header-content">
+                                                                                        <div class="beautypress-pricing-title">
+                                                                                            <h2>Hair Cut</h2></div>
+                                                                                        <div class="beautypress-pricing-price">
+                                                                                            <h4>Starting from</h4>
+                                                                                            <h5><span>$</span>50</h5></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="beautypress-pricing-footer">
+                                                                                    <ul class="beautypress-both-side-list">
+                                                                                        <li>Teen's haircut<span>$45</span></li>
+                                                                                        <li>Men's haircut<span>$42</span></li>
+                                                                                        <li>Children's haircut<span>$56</span></li>
+                                                                                        <li>Women's haircut<span>$76</span></li>
+                                                                                    </ul>
+                                                                                    <div class="beautypress-btn-wraper"> <a href="" target="_blank" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">Appointment Now<span></span></a></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div data-id="34a2918" class="elementor-element elementor-element-34a2918 elementor-column elementor-col-33 elementor-inner-column" data-element_type="column">
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div data-id="9811316" class="elementor-element elementor-element-9811316 elementor-widget elementor-widget-xs-price" data-element_type="xs-price.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="beautypress-single-pricing-table">
+                                                                                <div class="beautypress-pricing-header beautypress-purple-overlay"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/pricing-2-350x259.jpg" alt="Makeup">
+                                                                                    <div class="beautypress-pricing-header-content">
+                                                                                        <div class="beautypress-pricing-title">
+                                                                                            <h2>Makeup</h2></div>
+                                                                                        <div class="beautypress-pricing-price">
+                                                                                            <h4>Starting from</h4>
+                                                                                            <h5><span>$</span>50</h5></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="beautypress-pricing-footer">
+                                                                                    <ul class="beautypress-both-side-list">
+                                                                                        <li>Just eyes<span>$45</span></li>
+                                                                                        <li>Bridal trail<span>$42</span></li>
+                                                                                        <li>Regular makeup<span>$56</span></li>
+                                                                                        <li>Quick fix makeup<span>$76</span></li>
+                                                                                    </ul>
+                                                                                    <div class="beautypress-btn-wraper"> <a href="" target="_blank" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">Appointment Now<span></span></a></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div data-id="302fc4c" class="elementor-element elementor-element-302fc4c elementor-column elementor-col-33 elementor-inner-column" data-element_type="column">
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div data-id="a5bbfb7" class="elementor-element elementor-element-a5bbfb7 elementor-widget elementor-widget-xs-price" data-element_type="xs-price.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="beautypress-single-pricing-table">
+                                                                                <div class="beautypress-pricing-header beautypress-purple-overlay"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/pricing-3-350x259.jpg" alt="Hair Color">
+                                                                                    <div class="beautypress-pricing-header-content">
+                                                                                        <div class="beautypress-pricing-title">
+                                                                                            <h2>Hair Color</h2></div>
+                                                                                        <div class="beautypress-pricing-price">
+                                                                                            <h4>Starting from</h4>
+                                                                                            <h5><span>$</span>50</h5></div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="beautypress-pricing-footer">
+                                                                                    <ul class="beautypress-both-side-list">
+                                                                                        <li>Teen's haircut<span>$45</span></li>
+                                                                                        <li>Men's haircut<span>$42</span></li>
+                                                                                        <li>Children's haircut<span>$56</span></li>
+                                                                                        <li>Women's haircut<span>$76</span></li>
+                                                                                    </ul>
+                                                                                    <div class="beautypress-btn-wraper"> <a href="" target="_blank" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">Appointment Now<span></span></a></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section data-id="d6added" class="elementor-element elementor-element-d6added elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+                        <div class="elementor-background-overlay"></div>
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                                <div data-id="9e8b278" class="elementor-element elementor-element-9e8b278 elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div data-id="5430056" class="elementor-element elementor-element-5430056 xs-heading-text-center elementor-widget elementor-widget-xs-heading" data-element_type="xs-heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="beautypress-big-sub-heading">
+                                                        <h2 class="">We are awesome</h2>
+                                                        <h3>Our Services</h3></div>
+                                                </div>
+                                            </div>
+                                            <section data-id="2e9b993" class="elementor-element elementor-element-2e9b993 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div data-id="20e900b" class="elementor-element elementor-element-20e900b elementor-column elementor-col-100 elementor-inner-column" data-element_type="column">
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div data-id="32a0374" class="elementor-element elementor-element-32a0374 elementor-widget elementor-widget-xs-service" data-element_type="xs-service.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="beautypress-tab">
+                                                                                <div class="tabbable">
+                                                                                    <ul class="nav nav-tabs beautypress-top-nav">
+                                                                                        <li class="active"><a href="#massage" data-toggle="tab"><i class="xsicon icon-massage"></i><span>massage</span></a></li>
+                                                                                        <li class=""><a href="#facial" data-toggle="tab"><i class="xsicon icon-cream-1"></i><span>facial</span></a></li>
+                                                                                        <li class=""><a href="#waxing" data-toggle="tab"><i class="xsicon icon-hair-removal"></i><span>waxing</span></a></li>
+                                                                                        <li class=""><a href="#makeup" data-toggle="tab"><i class="xsicon icon-cosmetics"></i><span>Makeup</span></a></li>
+                                                                                        <li class=""><a href="#nail-care" data-toggle="tab"><i class="xsicon icon-nail"></i><span>Nail care</span></a></li>
+                                                                                        <li class=""><a href="#hair-cut" data-toggle="tab"><i class="xsicon icon-hair-cut"></i><span>Hair Cut</span></a></li>
+                                                                                    </ul>
+                                                                                    <div class="tab-content">
+                                                                                        <div class="tab-pane active" id="massage">
+                                                                                            <div class="tabbable">
+                                                                                                <ul class="nav nav-tabs beautypress-side-nav">
+                                                                                                    <li class="active"><a href="#xs-tabs-5d5dbc4d5a37157951" data-toggle="tab">Men’s Facial</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5a37157952" data-toggle="tab">Women’s Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5a37157953" data-toggle="tab">Children’s Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5a37157954" data-toggle="tab">Teen’s Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5a37157955" data-toggle="tab">Layer Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5a37157956" data-toggle="tab">Stylish Makeup</a></li>
+                                                                                                </ul>
+                                                                                                <div class="tab-content">
+                                                                                                    <div class="tab-pane beautypress-tab-content active" id="xs-tabs-5d5dbc4d5a37157951">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-1-348x404.jpg" alt="Men’s Facial">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Men’s Facial</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment <span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d5a37157952">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-2-348x404.jpg" alt="Women’s Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Women’s Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d5a37157953">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-2-348x404.jpg" alt="Children’s Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Children’s Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d5a37157954">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-4-348x404.jpg" alt="Teen’s Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Teen’s Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d5a37157955">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-5-348x404.jpg" alt="Layer Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Layer Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d5a37157956">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-6-348x404.jpg" alt="Stylish Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Stylish Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="tab-pane " id="facial">
+                                                                                            <div class="tabbable">
+                                                                                                <ul class="nav nav-tabs beautypress-side-nav">
+                                                                                                    <li class="active"><a href="#xs-tabs-5d5dbc4d5bf9a91371" data-toggle="tab">Men’s Facial</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5bf9a91372" data-toggle="tab">Women’s Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5bf9a91373" data-toggle="tab">Children’s Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5bf9a91374" data-toggle="tab">Teen’s Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5bf9a91375" data-toggle="tab">Layer Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5bf9a91376" data-toggle="tab">Stylish Makeup</a></li>
+                                                                                                </ul>
+                                                                                                <div class="tab-content">
+                                                                                                    <div class="tab-pane beautypress-tab-content active" id="xs-tabs-5d5dbc4d5bf9a91371">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-1-348x404.jpg" alt="Men’s Facial">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Men’s Facial</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment <span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d5bf9a91372">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-2-348x404.jpg" alt="Women’s Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Women’s Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d5bf9a91373">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-2-348x404.jpg" alt="Children’s Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Children’s Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d5bf9a91374">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-4-348x404.jpg" alt="Teen’s Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Teen’s Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d5bf9a91375">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-5-348x404.jpg" alt="Layer Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Layer Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d5bf9a91376">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-6-348x404.jpg" alt="Stylish Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Stylish Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="tab-pane " id="waxing">
+                                                                                            <div class="tabbable">
+                                                                                                <ul class="nav nav-tabs beautypress-side-nav">
+                                                                                                    <li class="active"><a href="#xs-tabs-5d5dbc4d5d6f680671" data-toggle="tab">Men’s Waxing</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5d6f680672" data-toggle="tab">Women’s Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5d6f680673" data-toggle="tab">Children’s Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5d6f680674" data-toggle="tab">Teen’s Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5d6f680675" data-toggle="tab">Layer Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5d6f680676" data-toggle="tab">Stylish Makeup</a></li>
+                                                                                                </ul>
+                                                                                                <div class="tab-content">
+                                                                                                    <div class="tab-pane beautypress-tab-content active" id="xs-tabs-5d5dbc4d5d6f680671">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-5-348x404.jpg" alt="Men’s Waxing">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Men’s Waxing</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d5d6f680672">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-2-348x404.jpg" alt="Women’s Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Women’s Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d5d6f680673">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-2-348x404.jpg" alt="Children’s Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Children’s Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d5d6f680674">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-4-348x404.jpg" alt="Teen’s Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Teen’s Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d5d6f680675">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-5-348x404.jpg" alt="Layer Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Layer Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d5d6f680676">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-6-348x404.jpg" alt="Stylish Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Stylish Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="tab-pane " id="makeup">
+                                                                                            <div class="tabbable">
+                                                                                                <ul class="nav nav-tabs beautypress-side-nav">
+                                                                                                    <li class="active"><a href="#xs-tabs-5d5dbc4d5eed581791" data-toggle="tab">Men’s Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5eed581792" data-toggle="tab">Men’s Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5eed581793" data-toggle="tab">Women’s Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5eed581794" data-toggle="tab">Children’s Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5eed581795" data-toggle="tab">Teen’s Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5eed581796" data-toggle="tab">Layer Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5eed581797" data-toggle="tab">Stylish Makeup</a></li>
+                                                                                                </ul>
+                                                                                                <div class="tab-content">
+                                                                                                    <div class="tab-pane beautypress-tab-content active" id="xs-tabs-5d5dbc4d5eed581791">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-1-348x404.jpg" alt="Men’s Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Men’s Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d5eed581792">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-5-348x404.jpg" alt="Men’s Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Men’s Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d5eed581793">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-2-348x404.jpg" alt="Women’s Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Women’s Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d5eed581794">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-2-348x404.jpg" alt="Children’s Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Children’s Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d5eed581795">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-4-348x404.jpg" alt="Teen’s Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Teen’s Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d5eed581796">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-5-348x404.jpg" alt="Layer Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Layer Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d5eed581797">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-6-348x404.jpg" alt="Stylish Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Stylish Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="tab-pane " id="nail-care">
+                                                                                            <div class="tabbable">
+                                                                                                <ul class="nav nav-tabs beautypress-side-nav">
+                                                                                                    <li class="active"><a href="#xs-tabs-5d5dbc4d608dd89281" data-toggle="tab">Nail Care</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d608dd89282" data-toggle="tab">Men’s Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d608dd89283" data-toggle="tab">Children’s Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d608dd89284" data-toggle="tab">Teen’s Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d608dd89285" data-toggle="tab">Layer Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d608dd89286" data-toggle="tab">Stylish Makeup</a></li>
+                                                                                                </ul>
+                                                                                                <div class="tab-content">
+                                                                                                    <div class="tab-pane beautypress-tab-content active" id="xs-tabs-5d5dbc4d608dd89281">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/pricing-1-348x404.jpg" alt="Nail Care">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Nail Care</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d608dd89282">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-5-348x404.jpg" alt="Men’s Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Men’s Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d608dd89283">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-2-348x404.jpg" alt="Children’s Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Children’s Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d608dd89284">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-4-348x404.jpg" alt="Teen’s Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Teen’s Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d608dd89285">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-5-348x404.jpg" alt="Layer Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Layer Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d608dd89286">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-6-348x404.jpg" alt="Stylish Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Stylish Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="tab-pane " id="hair-cut">
+                                                                                            <div class="tabbable">
+                                                                                                <ul class="nav nav-tabs beautypress-side-nav">
+                                                                                                    <li class="active"><a href="#xs-tabs-5d5dbc4d61f0e80291" data-toggle="tab">Nail Care</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d61f0e80292" data-toggle="tab">Women’s Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d61f0e80293" data-toggle="tab">Children’s Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d61f0e80294" data-toggle="tab">Teen’s Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d61f0e80295" data-toggle="tab">Layer Makeup</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d61f0e80296" data-toggle="tab">Stylish Makeup</a></li>
+                                                                                                </ul>
+                                                                                                <div class="tab-content">
+                                                                                                    <div class="tab-pane beautypress-tab-content active" id="xs-tabs-5d5dbc4d61f0e80291">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/pricing-1-348x404.jpg" alt="Nail Care">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Nail Care</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d61f0e80292">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-2-348x404.jpg" alt="Women’s Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Women’s Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d61f0e80293">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-2-348x404.jpg" alt="Children’s Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Children’s Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d61f0e80294">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-4-348x404.jpg" alt="Teen’s Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Teen’s Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d61f0e80295">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-5-348x404.jpg" alt="Layer Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Layer Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <div class="tab-pane beautypress-tab-content " id="xs-tabs-5d5dbc4d61f0e80296">
+                                                                                                        <div class="beautypress-spilit-container">
+                                                                                                            <div class="beautypress-tab-image"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/service-tab-img-6-348x404.jpg" alt="Stylish Makeup">
+                                                                                                                <div class="beautypress-tab-image-content"> <span class="beautypress-iocn-btn full-round-btn bg-color-purple">$50</span></div>
+                                                                                                            </div>
+                                                                                                            <div class="beautypress-tab-text-content">
+                                                                                                                <h3>Stylish Makeup</h3>
+                                                                                                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer.</p>
+                                                                                                                <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there</p>
+                                                                                                                <div class="beautypress-btn-wraper"> <a href="#" target="_self" class="beautypress-btn xs-btn round-btn box-shadow-btn bg-color-purple">get appointment<span></span></a></div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section data-id="2e18edd" class="elementor-element elementor-element-2e18edd elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+                        <div class="elementor-background-overlay"></div>
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                                <div data-id="a5928c1" class="elementor-element elementor-element-a5928c1 elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div data-id="7c102e4" class="elementor-element elementor-element-7c102e4 xs-heading-text-center elementor-widget elementor-widget-xs-heading" data-element_type="xs-heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="beautypress-big-sub-heading">
+                                                        <h2 class="">Your Everyday Retreat</h2>
+                                                        <h3>Get Appoinment</h3></div>
+                                                </div>
+                                            </div>
+                                            <div data-id="095993f" class="elementor-element elementor-element-095993f text-center elementor-widget elementor-widget-xs-button" data-element_type="xs-button.default">
+                                                <div class="elementor-widget-container"> <a href="#" target="_self" class="beautypress-btn xs-btn bg-color-purple round-btn box-shadow-btn">Get Appoinment<span></span></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section data-id="75160bc" class="elementor-element elementor-element-75160bc elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+                        <div class="elementor-background-overlay"></div>
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                                <div data-id="622d191" class="elementor-element elementor-element-622d191 elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div data-id="12b3fe3" class="elementor-element elementor-element-12b3fe3 xs-heading-text-center elementor-widget elementor-widget-xs-heading" data-element_type="xs-heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="beautypress-big-sub-heading">
+                                                        <h2 class="">We are awesome</h2>
+                                                        <h3>Expert Beauticians</h3></div>
+                                                </div>
+                                            </div>
+                                            <section data-id="cfec4b0" class="elementor-element elementor-element-cfec4b0 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div data-id="1305a6d" class="elementor-element elementor-element-1305a6d elementor-column elementor-col-33 elementor-inner-column" data-element_type="column">
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div data-id="c50efa9" class="elementor-element elementor-element-c50efa9 elementor-widget elementor-widget-xs-team" data-element_type="xs-team.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="beautypress-single-team beautypress-purple-overlay"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/team-1-350x378.jpg" alt="JENNY WILLIAM">
+                                                                                <div class="beautypress-team-content">
+                                                                                    <div class="beautypress-team-person-details">
+                                                                                        <h3>JENNY WILLIAM</h3>
+                                                                                        <h4>Founder</h4></div>
+                                                                                    <div class="beautypress-team-person-socail-details">
+                                                                                        <ul class="beautypress-social-list">
+                                                                                            <li><a href="#" class="beautypress-facebook"><i class="fa fa-facebook"></i></a></li>
+                                                                                            <li><a href="#" class="beautypress-twitter"><i class="fa fa-twitter"></i></a></li>
+                                                                                            <li><a href="#" class="beautypress-pinterest"><i class="fa fa-pinterest-p"></i></a></li>
+                                                                                            <li><a href="#" class="beautypress-dribbble"><i class="fa fa-dribbble"></i></a></li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div data-id="4acb168" class="elementor-element elementor-element-4acb168 elementor-column elementor-col-33 elementor-inner-column" data-element_type="column">
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div data-id="a49f1b6" class="elementor-element elementor-element-a49f1b6 elementor-widget elementor-widget-xs-team" data-element_type="xs-team.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="beautypress-single-team beautypress-purple-overlay"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/team-2-350x378.jpg" alt="RUSANA RANSHAW">
+                                                                                <div class="beautypress-team-content">
+                                                                                    <div class="beautypress-team-person-details">
+                                                                                        <h3>RUSANA RANSHAW</h3>
+                                                                                        <h4>C.E.O</h4></div>
+                                                                                    <div class="beautypress-team-person-socail-details">
+                                                                                        <ul class="beautypress-social-list">
+                                                                                            <li><a href="#" class="beautypress-facebook"><i class="fa fa-facebook"></i></a></li>
+                                                                                            <li><a href="#" class="beautypress-twitter"><i class="fa fa-twitter"></i></a></li>
+                                                                                            <li><a href="#" class="beautypress-pinterest"><i class="fa fa-pinterest-p"></i></a></li>
+                                                                                            <li><a href="#" class="beautypress-dribbble"><i class="fa fa-dribbble"></i></a></li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div data-id="d03c710" class="elementor-element elementor-element-d03c710 elementor-column elementor-col-33 elementor-inner-column" data-element_type="column">
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div data-id="580221d" class="elementor-element elementor-element-580221d elementor-widget elementor-widget-xs-team" data-element_type="xs-team.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="beautypress-single-team beautypress-purple-overlay"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/team-3-350x378.jpg" alt="JENNIFAR SMITH">
+                                                                                <div class="beautypress-team-content">
+                                                                                    <div class="beautypress-team-person-details">
+                                                                                        <h3>JENNIFAR SMITH</h3>
+                                                                                        <h4>Senior Specialist</h4></div>
+                                                                                    <div class="beautypress-team-person-socail-details">
+                                                                                        <ul class="beautypress-social-list">
+                                                                                            <li><a href="#" class="beautypress-facebook"><i class="fa fa-facebook"></i></a></li>
+                                                                                            <li><a href="#" class="beautypress-twitter"><i class="fa fa-twitter"></i></a></li>
+                                                                                            <li><a href="#" class="beautypress-pinterest"><i class="fa fa-pinterest-p"></i></a></li>
+                                                                                            <li><a href="#" class="beautypress-dribbble"><i class="fa fa-dribbble"></i></a></li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section data-id="03e53d7" class="elementor-element elementor-element-03e53d7 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+                        <div class="elementor-background-overlay"></div>
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                                <div data-id="06c3a76" class="elementor-element elementor-element-06c3a76 elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div data-id="6810734" class="elementor-element elementor-element-6810734 xs-heading-text-center elementor-widget elementor-widget-xs-heading" data-element_type="xs-heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="beautypress-big-sub-heading">
+                                                        <h2 class="">We are awesome</h2>
+                                                        <h3>News Feeds</h3></div>
+                                                </div>
+                                            </div>
+                                            <section data-id="84e7984" class="elementor-element elementor-element-84e7984 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-element_type="section">
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div data-id="b70e6ef" class="elementor-element elementor-element-b70e6ef elementor-column elementor-col-100 elementor-inner-column" data-element_type="column">
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div data-id="9d2687f" class="elementor-element elementor-element-9d2687f elementor-widget elementor-widget-xs-blog" data-element_type="xs-blog.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <div class="row">
+                                                                                <div class="col-sm-6 col-md-4">
+                                                                                    <div class="beautypress-single-newsletter">
+                                                                                        <div class="beautypress-newsfeed-header beautypress-purple-overlay beautypress-light-overlay"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/1240_3-350x218.jpg" alt="There are many variations of v available.">
+                                                                                            <div class="beautypress-newsfeed-header-content">
+                                                                                                <div class="beautypress-newsfeed-img"> <img alt="" src="https://secure.gravatar.com/avatar/?s=50&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/?s=100&amp;d=mm&amp;r=g 2x" class="avatar avatar-50 photo avatar-default" height="50" width="50"> <a href="https://wp.xpeedstudio.com/beautypress/blog/author/admin/">admin</a></div>
+                                                                                                <div class="beautypress-dates">
+                                                                                                    <p class="bg-color-purple">19<strong>Dec</strong></p>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="beautypress-newsfeed-footer"> <a href="https://wp.xpeedstudio.com/beautypress/blog/2017/12/19/there-are-many-variations-of-v-available/">There are many variations of v available.</a> One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his.</div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-sm-6 col-md-4">
+                                                                                    <div class="beautypress-single-newsletter">
+                                                                                        <div class="beautypress-newsfeed-header beautypress-pink-overlay beautypress-light-overlay"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/11/1240_6-350x218.jpg" alt="Looks reasonable. The generate is therefore always.">
+                                                                                            <div class="beautypress-newsfeed-header-content">
+                                                                                                <div class="beautypress-newsfeed-img"> <img alt="" src="https://secure.gravatar.com/avatar/?s=50&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/?s=100&amp;d=mm&amp;r=g 2x" class="avatar avatar-50 photo avatar-default" height="50" width="50"> <a href="https://wp.xpeedstudio.com/beautypress/blog/author/admin/">admin</a></div>
+                                                                                                <div class="beautypress-dates">
+                                                                                                    <p class="bg-color-purple">12<strong>Nov</strong></p>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="beautypress-newsfeed-footer"> <a href="https://wp.xpeedstudio.com/beautypress/blog/2017/11/12/hello-world-3/">Looks reasonable. The generate is therefore always.</a> One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his.</div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-sm-6 col-md-4">
+                                                                                    <div class="beautypress-single-newsletter">
+                                                                                        <div class="beautypress-newsfeed-header beautypress-purple-overlay beautypress-light-overlay"> <img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/11/1240_5-350x218.jpg" alt="If you are going to use a you need to be sure can do it.">
+                                                                                            <div class="beautypress-newsfeed-header-content">
+                                                                                                <div class="beautypress-newsfeed-img"> <img alt="" src="https://secure.gravatar.com/avatar/?s=50&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/?s=100&amp;d=mm&amp;r=g 2x" class="avatar avatar-50 photo avatar-default" height="50" width="50"> <a href="https://wp.xpeedstudio.com/beautypress/blog/author/admin/">admin</a></div>
+                                                                                                <div class="beautypress-dates">
+                                                                                                    <p class="bg-color-purple">12<strong>Nov</strong></p>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="beautypress-newsfeed-footer"> <a href="https://wp.xpeedstudio.com/beautypress/blog/2017/11/12/hello-world-2-2/">If you are going to use a you need to be sure can do it.</a> One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his.</div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section data-id="4915bae" class="elementor-element elementor-element-4915bae elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+                        <div class="elementor-background-overlay"></div>
+                        <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-row">
+                                <div data-id="da597bb" class="elementor-element elementor-element-da597bb elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div data-id="758d894" class="elementor-element elementor-element-758d894 elementor-widget elementor-widget-xs-partner" data-element_type="xs-partner.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="beautypress-partner-wraper">
+                                                        <ul class="beautypress-partner-list">
+                                                            <li class="beautypress-gradient-border border-right gradient-border-bottom"><img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/brands-4.png" alt=""></li>
+                                                            <li class="beautypress-gradient-border border-right gradient-border-bottom"><img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/brands-3.png" alt=""></li>
+                                                            <li class="beautypress-gradient-border border-right gradient-border-bottom"><img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/brands-2.png" alt=""></li>
+                                                            <li class="beautypress-gradient-border border-right gradient-border-bottom"><img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/brands-1.png" alt=""></li>
+                                                            <li class="beautypress-gradient-border border-right gradient-border-bottom"><img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/brands-6.png" alt=""></li>
+                                                            <li class="beautypress-gradient-border border-right gradient-border-bottom"><img src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2018/01/brands-5.png" alt=""></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="beautypress-footer-section beautypress-footer-area">
+        <div class="beautypress-version-4 beautypress-footer-area">
+            <div class="container">
+                <div class="beautypress-footer-content beautypress-footer-content-v1">
+                    <div class="beautypress-footer-logo"> <img src="https://xpeedstudio.net/wp/xml/beautypress/wp-content/uploads/2018/01/footer_logo.png" alt=""></div>
+                    <div class="beautypress-subscribe-wraper" data-url="">
+                        <form action="#" method="POST" class="mc-form" novalidate="true">
+                            <div class="beautypress-subscribe">
+                                <input type="email" placeholder="Enter your email address....." id="mc-email" name="EMAIL" class="error">
+                                <input type="submit" value="subscribe" class="beautypress-sub">
+                                <label for="mc-email" class="error"></label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="beautypress-footer-widget-area">
+                        <div class="row">
+                            <div class="footer-widget col-md-4">
+                                <div id="text-2" class="beautypress-single-footer-v2 widget_text">
+                                    <div class="textwidget">
+                                        <div class="beautypress-single-footer">
+                                            <p>Then an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-widget col-md-4">
+                                <div id="text-3" class="beautypress-single-footer-v2 widget_text">
+                                    <div class="textwidget">
+                                        <div class="beautypress-single-footer beautypress-single-footer-group">
+                                            <p>Mon-Fri: 9 AM – 6 PM</p>
+                                            <p>Saturday: 9 AM – 4 PM</p>
+                                            <p>Sunday: Closed</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-widget col-md-4">
+                                <div id="text-4" class="beautypress-single-footer-v2 widget_text">
+                                    <div class="textwidget">
+                                        <div class="beautypress-single-footer beautypress-single-footer-group">
+                                            <p>176 W street name, New York, NY 10014</p>
+                                            <p>Email: info@yoursite.com</p>
+                                            <p>Telephone: +1(800)123-4566</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                {{/items}}
-                
-    
-                
-    
-                    <div class="ajaxCartNote">
-                        <div class="velaCartNoteButton">
-                            <a class="btnCartNote collapsed" href="#velaCartNote" data-toggle="collapse">
-                                <i class="fa fa-times"></i>
-                                add order note
-                            </a>
-                        </div>
-                        <div id="velaCartNote" class="velaCartNoteGroup collapse">
-                            <label for="CartSpecialInstructions">Special instructions for seller</label>
-                            <textarea name="note" class="form-control" id="CartSpecialInstructions" rows="4">{{ note }}</textarea>
-                        </div>
-                    </div>
-    
-                
-    
-                <div class="drawerCartFooter">
-                    <div class="drawerAjaxFooter">
-                        <div class="drawerSubtotal">
-                            <span class="cartSubtotalHeading">Subtotal</span>
-                            <span class="cartSubtotal">{{{totalPrice}}}</span>
-                        </div>
-                        <p class="drawerShipping">Shipping, taxes, and discounts will be calculated at checkout.</p>
-                        <div class="drawerButton">
-                            <div class="drawerButtonBox">
-                                <a class="btn btnVelaCart btnViewCart" href="/cart">
-                                    View Cart
-                                </a>
-                            </div>
-                            <div class="drawerButtonBox">
-                                <button type="submit" class="btn btnVelaCart btnCheckout" name="checkout">
-                                    PROCEED TO CHECKOUT
-                                </button>
-                            </div>
-    
-                            
-    
-                        </div>
-                    </div>
+            </div>
+        </div>
+        <div class="beautypress-copyright-content">
+            <div class="container">
+                <div class="beautypress-back-to-top-group">
+                    <div class="beautypress-back-to-top-wraper show-last-pos back-to-top-center"> <a href="#" class="beautypress-btn-2 beautypress-iocn-btn full-round-btn back-to-top"><i class="fa fa-angle-up"></i></a></div>
+                </div>
+                <div class="beautypress-copyright-text">
+                    <p>XpeedStudio © 2018 All Rights Reserved.</p>
                 </div>
             </div>
-        </form>
-    
-</script>
-<script id="headerCartTemplate" type="text/template">
-    <form action="/cart" method="post" novalidate class="cart ajaxcart">
-    <div class="headerCartInner">
-        <div class="headerCartScroll">
+        </div>
+    </footer>
+    <script type="text/javascript">
+        var c = document.body.className;
+        c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+        document.body.className = c;
+    </script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-includes/js/jquery/ui/core.min-1.11.4.js"></script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-includes/js/jquery/ui/datepicker.min-1.11.4.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function(jQuery) {
+            jQuery.datepicker.setDefaults({
+                "closeText": "Close",
+                "currentText": "Today",
+                "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+                "monthNamesShort": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                "nextText": "Next",
+                "prevText": "Previous",
+                "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+                "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"],
+                "dateFormat": "MM d, yy",
+                "firstDay": 1,
+                "isRTL": false
+            });
+        });
+    </script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/plugins/booked/assets/js/spin.min-2.0.1.js"></script>
+    <script data-minify="1" type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/booked/assets/js/spin.jquery-a1ab7a7c3f6203e0a81f1dec0af9f355.js"></script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/plugins/booked/assets/js/tooltipster/js/jquery.tooltipster.min-3.3.0.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var booked_js_vars = {
+            "ajax_url": "https:\/\/wp.xpeedstudio.com\/beautypress\/wp-admin\/admin-ajax.php",
+            "profilePage": "https:\/\/wp.xpeedstudio.com\/beautypress",
+            "publicAppointments": "",
+            "i18n_confirm_appt_delete": "Are you sure you want to cancel this appointment?",
+            "i18n_please_wait": "Please wait ...",
+            "i18n_wrong_username_pass": "Wrong username\/password combination.",
+            "i18n_fill_out_required_fields": "Please fill out all required fields.",
+            "i18n_guest_appt_required_fields": "Please enter your name to book an appointment.",
+            "i18n_appt_required_fields": "Please enter your name, your email address and choose a password to book an appointment.",
+            "i18n_appt_required_fields_guest": "Please fill in all \"Information\" fields.",
+            "i18n_password_reset": "Please check your email for instructions on resetting your password.",
+            "i18n_password_reset_error": "That username or email is not recognized."
+        }; /* ]]> */
+    </script>
+    <script data-minify="1" type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/booked/assets/js/functions-bc1b0d38af39ecdc008a3787f2b75c10.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var wpcf7 = {
+            "apiSettings": {
+                "root": "https:\/\/wp.xpeedstudio.com\/beautypress\/wp-json\/contact-form-7\/v1",
+                "namespace": "contact-form-7\/v1"
+            },
+            "recaptcha": {
+                "messages": {
+                    "empty": "Please verify that you are not a robot."
+                }
+            },
+            "cached": "1"
+        }; /* ]]> */
+    </script>
+    <script data-minify="1" type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/contact-form-7/includes/js/scripts-946f2fbac33c8cc6fd6f3138897c9ad0.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var wc_add_to_cart_params = {
+            "ajax_url": "\/beautypress\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/beautypress\/?wc-ajax=%%endpoint%%",
+            "i18n_view_cart": "View cart",
+            "cart_url": "https:\/\/wp.xpeedstudio.com\/beautypress",
+            "is_cart": "",
+            "cart_redirect_after_add": "no"
+        }; /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min-3.4.3.js"></script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min-2.70.js"></script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min-2.1.4.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var woocommerce_params = {
+            "ajax_url": "\/beautypress\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/beautypress\/?wc-ajax=%%endpoint%%"
+        }; /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min-3.4.3.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var wc_cart_fragments_params = {
+            "ajax_url": "\/beautypress\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/beautypress\/?wc-ajax=%%endpoint%%",
+            "cart_hash_key": "wc_cart_hash_07e256c92ee3bf10fd93765a3aba36ad",
+            "fragment_name": "wc_fragments_07e256c92ee3bf10fd93765a3aba36ad"
+        }; /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min-3.4.3.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var wpmm_object = {
+            "ajax_url": "https:\/\/wp.xpeedstudio.com\/beautypress\/wp-admin\/admin-ajax.php",
+            "wpmm_responsive_breakpoint": "991px",
+            "wpmm_disable_mobile": "false"
+        }; /* ]]> */
+    </script>
+    <script data-minify="1" type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/wp-megamenu/assets/js/wpmm-5722c0ddf1f47501aa42354c81835bd5.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var booked_fea_vars = {
+            "ajax_url": "https:\/\/wp.xpeedstudio.com\/beautypress\/wp-admin\/admin-ajax.php",
+            "i18n_confirm_appt_delete": "Are you sure you want to cancel this appointment?",
+            "i18n_confirm_appt_approve": "Are you sure you want to approve this appointment?"
+        }; /* ]]> */
+    </script>
+    <script data-minify="1" type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/plugins/booked-frontend-agents/js/functions-904bb438dc22b990f64a50895369cd7a.js"></script>
+    <script data-minify="1" type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/themes/beautypress/assets/js/plugins-dfbf821fd614c79c4ea276a46947b4e7.js"></script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/themes/beautypress/assets/js/bootstrap.min-1.0.js"></script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/themes/beautypress/assets/js/bootstrap-datepicker.min-1.0.js"></script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/themes/beautypress/assets/js/isotope.pkgd.min-1.0.js"></script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/themes/beautypress/assets/js/owl.carousel.min-1.0.js"></script>
+        
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/themes/beautypress/assets/js/jquery.magnific-popup.min-1.0.js"></script>
+    <script data-minify="1" type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/themes/beautypress/assets/js/appear-711565708733c95083aabfbc9517f446.js"></script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/themes/beautypress/assets/js/jquery.ajaxchimp.min-1.0.js"></script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/themes/beautypress/assets/js/jquery.hover3d.min-1.0.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy7becgYuLwns3uumNm6WdBYkBpLfy44k&amp;ver=4.9.10"></script>
+    <script data-minify="1" type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/themes/beautypress/assets/js/main-cf90cd63034cb8f7d1230b851b6e81f9.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var xs_ajax_obj = {
+            "ajaxurl": "https:\/\/wp.xpeedstudio.com\/beautypress\/wp-admin\/admin-ajax.php",
+            "ajax_nonce": "81828e0594"
+        }; /* ]]> */
+    </script>
+    <script data-minify="1" type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/themes/beautypress/assets/js/ajax-91b0a77177b377c92cf4eafde69b1dfe.js"></script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-includes/js/jquery/ui/position.min-1.11.4.js"></script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/plugins/elementor/assets/lib/dialog/dialog.min-4.4.1.js"></script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min-4.0.2.js"></script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/plugins/elementor/assets/lib/swiper/swiper.jquery.min-4.4.3.js"></script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var elementorFrontendConfig = {
+            "isEditMode": "",
+            "is_rtl": "",
+            "breakpoints": {
+                "xs": 0,
+                "sm": 480,
+                "md": 768,
+                "lg": 1025,
+                "xl": 1440,
+                "xxl": 1600
+            },
+            "urls": {
+                "assets": "https:\/\/wp.xpeedstudio.com\/beautypress\/wp-content\/plugins\/elementor\/assets\/"
+            },
+            "settings": {
+                "page": [],
+                "general": {
+                    "elementor_enable_lightbox_in_editor": "yes"
+                }
+            },
+            "post": {
+                "id": 237,
+                "title": "Home",
+                "excerpt": ""
+            }
+        }; /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/plugins/elementor/assets/js/frontend.min-2.1.4.js"></script>
+    <script data-minify="1" type="text/javascript" src="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/themes/beautypress/assets/js/xs-admin-aa8612aaa08ddcac70af25da69844496.js"></script>
+    <script>
+        (function(w, d) {
+            var b = d.getElementsByTagName("body")[0];
+            var s = d.createElement("script");
+            s.async = true;
+            s.src = !("IntersectionObserver" in w) ? "https://wp.xpeedstudio.com/beautypress/wp-content/plugins/wp-rocket/inc/front/js/lazyload-8.12.min.js" : "https://wp.xpeedstudio.com/beautypress/wp-content/plugins/wp-rocket/inc/front/js/lazyload-10.12.min.js";
+            w.lazyLoadOptions = {
+                elements_selector: "iframe",
+                data_src: "lazy-src",
+                data_srcset: "lazy-srcset",
+                data_sizes: "lazy-sizes",
+                skip_invisible: false,
+                class_loading: "lazyloading",
+                class_loaded: "lazyloaded",
+                threshold: 300,
+                callback_load: function(element) {
+                    if (element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible") {
+                        if (element.classList.contains("lazyloaded")) {
+                            if (typeof window.jQuery != "undefined") {
+                                if (jQuery.fn.fitVids) {
+                                    jQuery(element).parent().fitVids();
+                                }
+                            }
+                        }
+                    }
+                }
+            }; // Your options here. See "recipes" for more information about async.
+            b.appendChild(s);
+        }(window, document));
 
-        {{#items}}
-            <div class="ajaxCartProduct">
-                <div class="ajaxCartRow rowFlex flexAlignCenter" data-line="{{line}}">
-                    <div class="headerCartImage">
-                        <a href="{{url}}"><img class="img-responsive" src="{{img}}" alt="" /></a>
-                    </div>
-                    <div class="headerCartContent">
-                        <div class="headerCartInfo">
-                            <a href="{{url}}" class="headerCartProductName">{{name}}</a>
-                            {{#if variation}}
-                                <div class="headerCartProductMeta">{{variation}}</div>
-                            {{/if}}
-                            {{#properties}}
-                                {{#each this}}
-                                    {{#if this}}
-                                        <div class="headerCartProductMeta">{{@key}}: {{this}}</div>
-                                    {{/if}}
-                                {{/each}}
-                            {{/properties}}
-        
-                            
-        
-                            <div class="headerCartPrice">
-                                {{{price}}} <span>x {{itemQty}}</span>
-                            </div>
-                        </div>
-                        <div class="headerCartRemoveBox">
-                            <a href="#" class="cartRemove" onclick="return false;" data-line="{{ line }}">
-                                <i class="fa fa-trash"></i> <span>Remove</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        {{/items}}
-        </div>
-        <div class="headerCartTotal">
-            <span class="headerCartTotalTitle">Subtotal</span>
-            <span class="headerCartTotalNum">{{{totalPrice}}}</span>
-        </div>
-        <div class="headerCartButton">
-            <div class="headerCartButtonBox">
-                <a class="btn btnVelaCart btnViewCart" href="/cart">
-        
-                    View Cart
-        
-                </a>
-            </div>
-            <div class="headerCartButtonBox">
-                <button type="submit" class="btn btnVelaCart btnCheckout" name="checkout">
-        
-                    PROCEED TO CHECKOUT
-        
-                </button>
-            </div>
-        </div>
+        // Listen to the Initialized event
+        window.addEventListener('LazyLoad::Initialized', function(e) {
+            // Get the instance and puts it in the lazyLoadInstance variable
+            var lazyLoadInstance = e.detail.instance;
 
+            var observer = new MutationObserver(function(mutations) {
+                mutations.forEach(function(mutation) {
+                    lazyLoadInstance.update();
+                });
+            });
+
+            var b = document.getElementsByTagName("body")[0];
+            var config = {
+                childList: true,
+                subtree: true
+            };
+
+            observer.observe(b, config);
+        }, false);
+    </script>
+    <script async="" src="https://wp.xpeedstudio.com/beautypress/wp-content/plugins/wp-rocket/inc/front/js/lazyload-10.12.min.js"></script>
+    <!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1566424141 -->
+    <div id="shadowMeasureIt"></div>
+    <div id="divCoordMeasureIt"></div>
+    <div id="divRectangleMeasureIt">
+        <div id="divRectangleBGMeasureIt"></div>
     </div>
-    </form>
-</script>
-<script id="velaAjaxQty" type="text/template">
-    
-        <div class="velaQty">
-            <button type="button" class="qtyAdjust velaQtyButton velaQtyMinus" data-id="{{id}}" data-qty="{{itemMinus}}">
-                <span class="txtFallback">&minus;</span>
-            </button>
-            <input type="text" class="qtyNum velaQtyText" value="{{itemQty}}" min="0" data-id="{{id}}" aria-label="quantity" pattern="[0-9]*">
-            <button type="button" class="qtyAdjust velaQtyButton velaQtyPlus" data-id="{{id}}" data-qty="{{itemAdd}}">
-                <span class="txtFallback">+</span>
-            </button>
-        </div>
-    
-</script>
-<script id="velaJsQty" type="text/template">
-    
-        <div class="velaQty">
-            <button type="button" class="velaQtyAdjust velaQtyButton velaQtyMinus" data-id="{{id}}" data-qty="{{itemMinus}}">
-                <span class="txtFallback">&minus;</span>
-            </button>
-            <input type="text" class="velaQtyNum velaQtyText" value="{{itemQty}}" min="1" data-id="{{id}}" aria-label="quantity" pattern="[0-9]*" name="{{inputName}}" id="{{inputId}}" />
-            <button type="button" class="velaQtyAdjust velaQtyButton velaQtyPlus" data-id="{{id}}" data-qty="{{itemAdd}}">
-                <span class="txtFallback">+</span>
-            </button>
-        </div>
-    
-</script>
-    <div id="loading" style="display:none;"></div><div class="headerCartModal">
-        <div class="overlayCart"></div>
-        <div class="headerCartContent rowFlex flexAlignCenter">
-            <a class="closeCartModal" href="javascript:void(0)"></a>
-            <div class="cartProductImage">
-                <img class="img-responsive" alt="velastore demo" src="https://placehold.it/100x100">
-            </div>
-            <div class="cartProductContent">
-                <div class="productTitle"></div>
-                <div class="alertCartModal">Has been added to the cart!</div>
-                <div class="cartModalButtons">
-                    <a class="btn btnVelaCart btnViewCart" href="/cart">View Cart</a>
-                    <a class="btn btnVelaCart btnCheckout" href="/checkout">PROCEED TO CHECKOUT</a>
-                </div>
-            </div>
-        </div>
-    </div><div id="newsletterAlert" class="modal fade" style="display:none;">
-    <div class="modal-dialog modal-sm">
-        <div class="modal-content">
-            <div class="alert alert-success">
-                <div class="newsletterAlert">Thank you for your subscription</div>
-            </div>
-        </div>
-    </div>
-</div>
-    
-    <div id="velaQuickView" style="display:none;">
-        <div class="quickviewOverlay"></div>
-        <div class="jsQuickview"></div>
-        <div id="quickviewModal" class="quickviewProduct" style="display:none;">
-            <a title="Close" class="quickviewClose btnClose" href="javascript:void(0);"></a>
-            <div class="proBoxPrimary row">
-                <div class="proBoxImage col-xs-12 col-sm-12 col-md-5">
-                    <div class="proFeaturedImage">
-                        <a class="proImage" title="" href="#">
-                            <img class="img-responsive proImageQuickview" src="https://cdn.shopify.com/s/files/1/2517/5168/t/5/assets/loading.gif?7045" alt="Quickview">
-                            <span class="loadingImage"></span>
-                        </a>
-                    </div>
-                    <div class="proThumbnails proThumbnailsQuickview clearfix">
-                        <div class="owl-thumblist">
-                            <div class="owl-carousel">
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="proBoxInfo col-xs-12 col-sm-12 col-md-7">
-                    <h3 class="quickviewName">&nbsp;</h3>
-                    <div class="proAttr quickviewAvailability"></div>
-                    <div class="proAttr quickViewVendor"></div>
-                    <div class="proAttr quickViewType"></div>
-                    <div class="proAttr quickViewSKU"></div>
-                    <div class="proShortDescription rte"></div>
-                    <form action="/cart/add" method="post" enctype="multipart/form-data" class="formQuickview form-ajaxtocart">
-                        <div class="proPrice clearfix">
-                            <span class="priceProduct pricePrimary"></span>
-                            <span class="priceProduct priceCompare"></span>
-                        </div>
-                        <div class="proVariantsQuickview"><select name="id" style="display:none"></select></div>
-                        <div class="proQuantity">
-                            <label for="Quantity" class="qtySelector">Quantity</label>
-                            
-    
-        <div class="velaQty">
-            <button type="button" class="velaQtyAdjust velaQtyButton velaQtyMinus" data-id="" data-qty="0">
-                <span class="txtFallback">−</span>
-            </button>
-            <input type="text" class="velaQtyNum velaQtyText" value="1" min="1" data-id="" aria-label="quantity" pattern="[0-9]*" name="quantity" id="Quantity">
-            <button type="button" class="velaQtyAdjust velaQtyButton velaQtyPlus" data-id="" data-qty="11">
-                <span class="txtFallback">+</span>
-            </button>
-        </div>
-    
+</body>
 
-                        </div>
-                        <div class="proButton">
-                            <button type="submit" name="add" class="btn btnAddToCart">
-                                <span>Add to Cart</span>
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>    
-    </div>
-    <script src="https://cdn.shopify.com/s/assets/themes_support/option_selection-fe6b72c2bbdd3369ac0bfefe8648e3c889efca213baefd4cfb0dd9363563831f.js" type="text/javascript"></script>
-<script src="https://cdn.shopify.com/s/assets/themes_support/api.jquery-e94e010e92e659b566dbc436fdfe5242764380e00398907a14955ba301a4749f.js" type="text/javascript"></script>
-<script src="https://cdn.shopify.com/s/javascripts/currencies.js" type="text/javascript"></script>
-<script src="https://cdn.shopify.com/s/files/1/2517/5168/t/5/assets/vendor.js?7045" type="text/javascript"></script>
-<script src="https://cdn.shopify.com/s/files/1/2517/5168/t/5/assets/vela_ajaxcart.js?7045" type="text/javascript"></script>
-<script src="https://cdn.shopify.com/s/files/1/2517/5168/t/5/assets/vela.js?7045" type="text/javascript"></script>
-
-<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div><div></div></div></div>
-
-<div id="shadowMeasureIt"></div><div id="divCoordMeasureIt"></div><div id="divRectangleMeasureIt"><div id="divRectangleBGMeasureIt"></div></div></body></html>
+</html>
