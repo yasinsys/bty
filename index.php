@@ -139,7 +139,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link data-minify="1" rel="stylesheet" id="xs-blog-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/themes/beautypress/assets/css/blog-239226e4dde9add43aeb326edc963d3e.css" type="text/css" media="all">
     <link rel="stylesheet" id="beautypress-bootstrap-datepicker-min-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/themes/beautypress/assets/css/bootstrap-datepicker.min-1.0.css" type="text/css" media="all">
-    <link rel="stylesheet" id="beautypress-font-awesome-min-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/themes/beautypress/assets/css/font-awesome.min-1.0.css" type="text/css" media="all">
+    <link rel="stylesheet" id="beautypress-font-awesome-min-css" href="font-awesome.min-1.0.css" type="text/css" media="all">
     <link data-minify="1" rel="stylesheet" id="beautypress-font-xs-icon-css" href="xs-icon.css" type="text/css" media="all">
     <link rel="stylesheet" id="beautypress-owlmin-carousel-min-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/busting/1/beautypress/wp-content/themes/beautypress/assets/css/owl.carousel.min-1.0.css" type="text/css" media="all">
     <link data-minify="1" rel="stylesheet" id="beautypress-isotope-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/themes/beautypress/assets/css/isotope-33ed5b74f1c41c2d8e0a0401b8ac2218.css" type="text/css" media="all">
