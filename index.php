@@ -815,10 +815,10 @@ display: block;
                                                                                             <div class="tabbable">
                                                                                                 <ul class="nav nav-tabs beautypress-side-nav">
                                                                                                     <li class="active"><a href="#xs-tabs-5d5dbc4d5a37157951" data-toggle="tab">Jean Claude Biguine - Aromatherapy Massage (Unwind for 40 Mins)</a></li>
-                                                                                                    <li class="active"><a href="#xs-tabs-5d5dbc4d5a37157951" data-toggle="tab">            Four Fountains De Stress Spa - Premium Facial with Additional Mask + Shower & Green Tea - MONDAY TO FRIDAY ONLY
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5a37157951" data-toggle="tab">            Four Fountains De Stress Spa - Premium Facial with Additional Mask + Shower & Green Tea - MONDAY TO FRIDAY ONLY
 Q&As</a></li>
 
-                                                                                                    <li class="active"><a href="#xs-tabs-5d5dbc4d5a37157951" data-toggle="tab">Men’s Facial</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5a37157951" data-toggle="tab">Men’s Facial</a></li>
                                                                                                     <li class=""><a href="#xs-tabs-5d5dbc4d5a37157952" data-toggle="tab">Women’s Makeup</a></li>
                                                                                                     <li class=""><a href="#xs-tabs-5d5dbc4d5a37157953" data-toggle="tab">Children’s Makeup</a></li>
                                                                                                     <li class=""><a href="#xs-tabs-5d5dbc4d5a37157954" data-toggle="tab">Teen’s Makeup</a></li>
@@ -913,7 +913,7 @@ Q&As</a></li>
     
                                                                                                     <li class="active"><a href="#xs-tabs-5d5dbc4d5bf9a91371" data-toggle="tab">About Face - Laser Hair Removal - Under Arms and Full Face
 Q&As</a></li>
-                                                                                                    <li class="active"><a href="#xs-tabs-5d5dbc4d5bf9a91371" data-toggle="tab">Men’s Facial</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d5bf9a91371" data-toggle="tab">Men’s Facial</a></li>
                                                                                                     <li class=""><a href="#xs-tabs-5d5dbc4d5bf9a91372" data-toggle="tab">Women’s Makeup</a></li>
                                                                                                     <li class=""><a href="#xs-tabs-5d5dbc4d5bf9a91373" data-toggle="tab">Children’s Makeup</a></li>
                                                                                                     <li class=""><a href="#xs-tabs-5d5dbc4d5bf9a91374" data-toggle="tab">Teen’s Makeup</a></li>
@@ -1006,7 +1006,7 @@ Q&As</a></li>
                                                                                             <div class="tabbable">
                                                                                                 <ul class="nav nav-tabs beautypress-side-nav">
                                                                                                     <li class="active"><a href="#xs-tabs-5d5dbc4d5d6f680671" data-toggle="tab">Levo Spalon - Women's Glam</a></li>
-                                                                                                    <li class="active"><a href="#xs-tabs-5d5dbc4d5d6f680671" data-toggle="tab">Men’s Waxing</a></li>
+                                                                                                    <li><a href="#xs-tabs-5d5dbc4d5d6f680671" data-toggle="tab">Men’s Waxing</a></li>
                                                                                                     <li class=""><a href="#xs-tabs-5d5dbc4d5d6f680672" data-toggle="tab">Women’s Makeup</a></li>
                                                                                                     <li class=""><a href="#xs-tabs-5d5dbc4d5d6f680673" data-toggle="tab">Children’s Makeup</a></li>
                                                                                                     <li class=""><a href="#xs-tabs-5d5dbc4d5d6f680674" data-toggle="tab">Teen’s Makeup</a></li>
@@ -1298,7 +1298,7 @@ Q&As</a></li>
                                                                                                 <ul class="nav nav-tabs beautypress-side-nav">
 
                                                                                                     <li class="active"><a href="#xs-tabs-5d5dbc4d61f0e80291" data-toggle="tab">Enrich - Haircut by Master Stylist with Wash (Men)</a></li>
-                                                                                                    <li class="active"><a href="#xs-tabs-5d5dbc4d61f0e80291" data-toggle="tab">Nail Care</a></li>
+                                                                                                    <li class=""><a href="#xs-tabs-5d5dbc4d61f0e80291" data-toggle="tab">Nail Care</a></li>
                                                                                                     <li class=""><a href="#xs-tabs-5d5dbc4d61f0e80292" data-toggle="tab">Women’s Makeup</a></li>
                                                                                                     <li class=""><a href="#xs-tabs-5d5dbc4d61f0e80293" data-toggle="tab">Children’s Makeup</a></li>
                                                                                                     <li class=""><a href="#xs-tabs-5d5dbc4d61f0e80294" data-toggle="tab">Teen’s Makeup</a></li>
