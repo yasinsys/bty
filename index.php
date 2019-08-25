@@ -349,6 +349,41 @@
           .beautypress-tab .nav.nav-tabs.beautypress-top-nav li:last-child {
                 margin: 0 15px 0 0 !important;
             }  
+            .beautypress-tab .beautypress-top-nav li a i {
+    display: block;
+}
+.beautypress-tab .nav.nav-tabs.beautypress-top-nav li {
+    margin: 0 1%;
+    width: 48%;
+    float: left;
+    height: 90px;
+}
+.beautypress-tab .nav.nav-tabs.beautypress-top-nav {
+display: block;
+}
+
+.beautypress-tab .nav.nav-tabs.beautypress-top-nav li:last-child {
+    margin: 0 1% !important;
+}
+.beautypress-tab .beautypress-top-nav li a {
+    padding: 2px 20px !important;
+}
+#wp-megamenu-primary.wpmm-mobile-menu a.wpmm_mobile_menu_btn {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+.xs-header-1.beautypress-extra-css.beautypress-header-section.beautypress-version-1 .beautypress-version-2.beautypress-logo, .xs-header-4 .beautypress-logo-wraper .beautypress-logo {
+    min-height: 55px !important;
+    margin-top: 0 !important;
+    max-width: 140px !important;
+}
+.beautypress-header-section.beautypress-version-1 .beautypress-logo img {
+    width: 70px !important;
+}
+.beautypress-header-section {
+    height: 55px !important;
+}
+.beautypress-version-2.beautypress-logo img{margin-top: 0px !important;}
         }
 
     </style>
@@ -634,10 +669,70 @@
                             <div class="form-group">
                                 <label for="location-selector">Select Your Location</label>
                                 <select id="location-selector" class="form-control">
+ <option>Kochi</option> 
+ <option>Kozhikode</option> 
+ <option>Thiruvananthapuram</option> 
+ <option>Kollam</option> 
+ <option>Thrissur</option> 
+ <option>Kannur</option> 
+ <option>Alappuzha</option> 
+ <option>Kottayam</option> 
+ <option>Palakkad</option> 
+ <option>Changanassery</option> 
+ <option>Malappuram </option> 
+ <option>Tirur</option> 
+ <option>Manjeri</option> 
+ <option>Thalassery</option> 
+ <option>Thrippunithura</option> 
+ <option>Ponnani </option> 
+ <option>Thrikkakara</option> 
+ <option>Vatakara   </option> 
+ <option>Kanhangad  </option> 
+ <option>Taliparamba</option> 
+ <option>Payyanur   </option> 
+ <option>Koyilandy  </option> 
+ <option>Neyyattinkara</option> 
+ <option>Kalamassery</option> 
+ <option>Beypore </option> 
+ <option>Kayamkulam  </option> 
+ <option>Nedumangad  </option> 
+ <option>Muvattupuzha </option> 
+ <option>Punalur </option>
+ <option>Nileshwaram </option>
+ <option>Kasaragod   </option>
+ <option>Kunnamkulam </option>
+ <option>Ottappalam </option>
+ <option>Tiruvalla  </option>
+ <option>Thodupuzha </option>
+ <option>Perinthalmanna </option>
+ <option>Chalakkudy </option>
+ <option>karunagappally </option>
+ <option>Thirurangadi </option>
+ <option>Kottarakara </option>
+ <option>Cherthala </option>
+ <option>Maradu  </option>
+ <option>Shornur </option>
+ <option>Kottakkal </option>
+ <option>Varkala  </option>
+ <option>Manjeshwaram     </option>
+ <option>Uppala  </option>
+ <option>Pathanamthitta </option>
+ <option>Mattanur </option>
+ <option>Chavakkad</option>
+ <option>Kattappana</option>
+ <option>Adoor</option>
+ <option>Attingal</option>
+ <option>Paravur</option>
+ <option>Ramanattukara</option>
+ <option>Pandalam</option>    
+ <option>Anchal</option> 
+ <option>Edava</option>
+ <option disabled="">..................................... </option>
+                                  <option>Bengaluru </option>
+                                  <option>Chennai </option>
                                   <option>Mumbai </option>
                                   <option>Delhi </option>
                                   <option>Pune </option>
-                                  <option>Bengaluru </option>
                                   <option>Hyderabad </option>
                                   <option disabled="">..................................... </option>
                                   <option>Ahmedabad </option>
