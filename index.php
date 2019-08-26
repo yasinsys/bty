@@ -145,7 +145,7 @@
     <link data-minify="1" rel="stylesheet" id="beautypress-isotope-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/themes/beautypress/assets/css/isotope-33ed5b74f1c41c2d8e0a0401b8ac2218.css" type="text/css" media="all">
     <link data-minify="1" rel="stylesheet" id="beautypress-magnific-popup-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/themes/beautypress/assets/css/magnific-popup-b2424cc2708a5ae5d84dfdc0bebdfd02.css" type="text/css" media="all">
     <link data-minify="1" rel="stylesheet" id="beautypress-plugins-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/themes/beautypress/assets/css/plugins-22c80568c1efec0645ec879e3017cbee.css" type="text/css" media="all">
-    <link data-minify="1" rel="stylesheet" id="beautypress-style-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/themes/beautypress/assets/css/style-fa54ed50eef7c7acde9de5e02ef87cbd.css" type="text/css" media="all">
+    <link data-minify="1" rel="stylesheet" id="beautypress-style-css" href="style-custom.css" type="text/css" media="all">
     <link data-minify="1" rel="stylesheet" id="beautypress-custom-css" href="https://wp.xpeedstudio.com/beautypress/wp-content/cache/min/1/beautypress/wp-content/themes/beautypress/assets/css/custom-fc14725e450f8dd166a474ece39e0879.css" type="text/css" media="all">
     <style id="beautypress-custom-inline-css" type="text/css">
         .beautypress-black-overlay-single-blog {
@@ -418,8 +418,9 @@ display: block;
         <div class="beautypress-header-top">
             <div class="container">
                 <ul class="beautypress-simple-iocn-list beautypress-version-1">
-                    <li class="header-phone"><i class="xsicon icon-phone3"></i>+00 00 11 22 33</li>
-                    <li class="header-email"><i class="xsicon icon-envelope5"></i>info@xpeedstudio.com</li>
+                    <li class="header-phone"><i class="xsicon icon-phone3"></i>04954 855 257</li>
+                    <li class="header-phone"><i class="xsicon icon-phone3"></i>9526 806 823</li>
+                    <li class="header-email"><i class="xsicon icon-envelope5"></i>fathimadegreat1@gmail.com</li>
                 </ul>
             </div>
         </div>
@@ -1404,85 +1405,6 @@ Q&As</a></li>
                             </div>
                         </div>
                     </section>
-                        <div class="elementor-container elementor-column-gap-default">
-                            <div class="elementor-row">
-                                <div data-id="c80db5b" class="elementor-element elementor-element-c80db5b elementor-column elementor-col-50 elementor-top-column" data-element_type="column">
-                                    <div class="elementor-column-wrap elementor-element-populated">
-                                        <div class="elementor-widget-wrap">
-                                            <div data-id="f14694c" class="elementor-element elementor-element-f14694c elementor-widget elementor-widget-xs-heading" data-element_type="xs-heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <div class="beautypress-new-about-text-gruop">
-                                                        <div class="beautypress-heading-text-content">
-                                                            <div class="beautypress-sub-heading beautypress-watermark-title">
-                                                                <h2 data-title="20+">20+ Years  of experience</h2></div> <span class="beautypress-gradient-separetor"></span>
-                                                            <p>Passion, knowledge and the gift of beauty salon &amp; spa continues to give the best services in the world.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div data-id="6466935" class="elementor-element elementor-element-6466935 text-left elementor-widget elementor-widget-xs-button" data-element_type="xs-button.default">
-                                                <div class="elementor-widget-container"> <a href="#" target="_self" class="beautypress-btn xs-btn bg-color-purple round-btn box-shadow-btn">Appointment Now<span></span></a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-id="f6da8f2" class="elementor-element elementor-element-f6da8f2 elementor-column elementor-col-50 elementor-top-column" data-element_type="column">
-                                    <div class="elementor-column-wrap elementor-element-populated">
-                                        <div class="elementor-background-overlay"></div>
-                                        <div class="elementor-widget-wrap">
-                                            <section data-id="122133c" class="elementor-element elementor-element-122133c elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
-                                                <div class="elementor-background-overlay"></div>
-                                                <div class="elementor-container elementor-column-gap-default">
-                                                    <div class="elementor-row">
-                                                        <div data-id="443274b" class="elementor-element elementor-element-443274b elementor-column elementor-col-50 elementor-inner-column" data-element_type="column">
-                                                            <div class="elementor-column-wrap elementor-element-populated">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div data-id="6c05b30" class="elementor-element elementor-element-6c05b30 elementor-mobile-align-center elementor-widget elementor-widget-xs-single-image" data-element_type="xs-single-image.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="beautypress-3d beautypress-single-image">
-                                                                                <div class="beautypress-3d-project-card"> <img width="271" height="305" src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-1.png" class="attachment-full size-full" alt="" srcset="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-1.png 271w, https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-1-267x300.png 267w" sizes="(max-width: 271px) 100vw, 271px"></div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div data-id="ea98e3f" class="elementor-element elementor-element-ea98e3f elementor-mobile-align-center elementor-widget elementor-widget-xs-single-image" data-element_type="xs-single-image.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="beautypress-3d beautypress-single-image">
-                                                                                <div class="beautypress-3d-project-card"> <img width="271" height="305" src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-3.png" class="attachment-full size-full" alt="" srcset="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-3.png 271w, https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-3-267x300.png 267w" sizes="(max-width: 271px) 100vw, 271px"></div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div data-id="cbcf842" class="elementor-element elementor-element-cbcf842 elementor-column elementor-col-50 elementor-inner-column" data-element_type="column">
-                                                            <div class="elementor-column-wrap elementor-element-populated">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div data-id="f5a9775" class="elementor-element elementor-element-f5a9775 elementor-mobile-align-center elementor-widget elementor-widget-xs-single-image" data-element_type="xs-single-image.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="beautypress-3d beautypress-single-image">
-                                                                                <div class="beautypress-3d-project-card"> <img width="271" height="345" src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-2.png" class="attachment-full size-full" alt="" srcset="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-2.png 271w, https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-2-236x300.png 236w" sizes="(max-width: 271px) 100vw, 271px"></div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div data-id="7dd837e" class="elementor-element elementor-element-7dd837e elementor-mobile-align-center elementor-widget elementor-widget-xs-single-image" data-element_type="xs-single-image.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <div class="beautypress-3d beautypress-single-image">
-                                                                                <div class="beautypress-3d-project-card"> <img width="271" height="270" src="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-4.png" class="attachment-full size-full" alt="" srcset="https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-4.png 271w, https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-4-150x150.png 150w, https://wp.xpeedstudio.com/beautypress/wp-content/uploads/2017/12/about-new-img-4-100x100.png 100w" sizes="(max-width: 271px) 100vw, 271px"></div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </section>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
                     <section data-id="4b55072" class="elementor-element elementor-element-4b55072 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
                         <div class="elementor-container elementor-column-gap-default">
                             <div class="elementor-row">
@@ -2329,9 +2251,9 @@ Q&As</a></li>
                                 <div id="text-4" class="beautypress-single-footer-v2 widget_text">
                                     <div class="textwidget">
                                         <div class="beautypress-single-footer beautypress-single-footer-group">
-                                            <p>176 W street name, New York, NY 10014</p>
-                                            <p>Email: info@yoursite.com</p>
-                                            <p>Telephone: +1(800)123-4566</p>
+                                            <p>Golden Sands, Karat Road, Nadakkavu - 673011</p>
+                                            <p>Email: fathimadegreat1@gmail.com</p>
+                                            <p>Telephone: 04954 855 257</p>
                                         </div>
                                     </div>
                                 </div>
@@ -2347,7 +2269,7 @@ Q&As</a></li>
                     <div class="beautypress-back-to-top-wraper show-last-pos back-to-top-center"> <a href="#" class="beautypress-btn-2 beautypress-iocn-btn full-round-btn back-to-top"><i class="fa fa-angle-up"></i></a></div>
                 </div>
                 <div class="beautypress-copyright-text">
-                    <p>XpeedStudio © 2018 All Rights Reserved.</p>
+                    <p>The House Beauty © 2019 All Rights Reserved.</p>
                 </div>
             </div>
         </div>
